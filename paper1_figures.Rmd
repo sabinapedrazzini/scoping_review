@@ -1,0 +1,63 @@
+---
+title: "paper1_figures"
+output: html_document
+date: "2023-09-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+FIGURE 1: diagram of papers' selection process
+``` {r}
+library(DiagrammeR)
+library(webshot)
+DiagrammeR::grViz("digraph {
+graph [layout = dot, rankdir = TB]
+ 
+node [shape = rectangle]        
+rec1 [label = 'Papers identified from search engines
+n = 5210']
+rec2 [label = 'Duplicates
+n = 624']
+rec3 [label = 'Papers screened based on titles and abstracts
+n = 4586']
+rec4 [label = 'Papers not suitable
+n = 4321']
+rec5 [label = 'Papers read completely
+n = 265']
+rec6 [label = 'Papers not suitable
+n = YYY']
+rec7 [label = 'Studies included
+n = XXX']
+
+
+# edge definitions with the node IDs
+rec1 -> rec2
+rec3 -> rec4
+rec5 -> rec6
+rec1 -> rec3 -> rec5 -> rec7
+}",
+height = 500)
+```
