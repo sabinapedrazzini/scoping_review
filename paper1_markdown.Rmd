@@ -17,7 +17,7 @@ affiliation:
   - id            : "1"
     institution   : "University of Bern"
 
-authornote: |
+authornote: | TEST!!
 
 abstract: |
   One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
