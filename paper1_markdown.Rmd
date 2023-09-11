@@ -64,7 +64,7 @@ r_refs("r-references.bib")
 set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
-
+TEST!!!
 Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
 **??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998) The study of cooperation is particularly interesting in social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. add Dawes' definition
