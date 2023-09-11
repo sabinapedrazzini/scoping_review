@@ -52,7 +52,6 @@ footnotelist      : no
 
 classoption       : "man"
 output            : papaja::apa6_word
-
 ---
 
 ```{r setup, include = FALSE}
@@ -65,79 +64,82 @@ r_refs("r-references.bib")
 set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
-Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them.
-An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995].
-Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
-**??? CONNECTING ALTRUISM WITH COOPERATION ???**
-Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998)
-The study of cooperation is particularly interesting in social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. add Dawes' definition
+Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
+**??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998) The study of cooperation is particularly interesting in social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. add Dawes' definition
 
-
-where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980]. **<- EXPLAIN BETTER!!!** 
-
-
+where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980]. **\<- EXPLAIN BETTER!!!**
 
 Thus, the most rational behaviour for everyone would be to defect, because it would ensure the maximum outcome independently of other individuals' choices. ADD NASH EQUILIBRIUM??? (@Colman2018 = at page 2 good definition of Nash) However, as with altruism, cooperative decisions are often made in social dilemmas, showing that human beings are not always rational in the economic, individual sense [@Kollock1998] and that there are multiple factors that can influence people's decisions in such situations (see for example @VanLange2013 for a review).
 
+b.  Moreover, some studies consider cooperation to be the intuitive option, while defection needs more thinking (Kieslich & Hilbig, 2014)
+c.  A deeper understanding of mechanisms underlying cooperation in social dilemma is therefore necessary
 
-b.	Moreover, some studies consider cooperation to be the intuitive option, while defection needs more thinking (Kieslich & Hilbig, 2014)
-c.	A deeper understanding of mechanisms underlying cooperation in social dilemma is therefore necessary
-+ cooperation even more fragile when scarce resources (De Luca et al.) => importance of understanding it
+-   cooperation even more fragile when scarce resources (De Luca et al.) =\> importance of understanding it
 
-Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas.
-A third example of real-life social dilemmas are commons.
+Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons.
 
+-   This is even more important if we consider the practical implication that social dilemmas have in our society: social dilemmas could be translated into commons
 
--	This is even more important if we consider the practical implication that social dilemmas have in our society: social dilemmas could be translated into commons
-a.	Climate change as social dilemmas
-b.	Definition of commons  commons as social dilemmas
-c.	Article that says that social dilemmas are not the same as commons (Cole & Grossman, 2010)
-d.	But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
-e.	Existing theory about the commons = similar structure than for social dilemmas: rational human beings are supposed to fail (TOC, Hardin, 1986), but in reality cooperation is often observed (for example Ostrom, 1990 + find others)
--	Importance of commons: Pacheco et al. (2014) having small groups behaving in an ecological way is efficient against climate change  very important to understand under which conditions cooperation could be enhanced in commons
--	Aim of this scoping review = shed light on cooperation both in social dilemmas and in commons by (1) identifying individual factors that can enhance it and (2) understanding what kind of group organization groups can set to improve a cooperation of all members
-a.	?? Is it to mention that I focus on what a group can do, without focusing on how external institutions can influence cooperation?? If so, see @Larsson2016
--	Research questions (see if not too redundant with the previous phrase)
+a.  Climate change as social dilemmas
+b.  Definition of commons  commons as social dilemmas
+c.  Article that says that social dilemmas are not the same as commons (Cole & Grossman, 2010)
+d.  But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
+e.  Existing theory about the commons = similar structure than for social dilemmas: rational human beings are supposed to fail (TOC, Hardin, 1986), but in reality cooperation is often observed (for example Ostrom, 1990 + find others)
 
-+ introducing free-riding concept somewhere
+-   Importance of commons: Pacheco et al. (2014) having small groups behaving in an ecological way is efficient against climate change  very important to understand under which conditions cooperation could be enhanced in commons
+-   Aim of this scoping review = shed light on cooperation both in social dilemmas and in commons by (1) identifying individual factors that can enhance it and (2) understanding what kind of group organization groups can set to improve a cooperation of all members
+
+a.  ?? Is it to mention that I focus on what a group can do, without focusing on how external institutions can influence cooperation?? If so, see @Larsson2016
+
+-   Research questions (see if not too redundant with the previous phrase)
+
+-   introducing free-riding and defection concept somewhere (see @Gomez-Ruiz2020 introduction for free-riding)
 
 # Methods
-To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. 
-To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust" **, "intergroup"**, and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023.
-According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there were not chronological or geographical limitations, once again to provide a broader vision on the topic.
-There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
 
-Criteria developed during screening:
-- no papers about agent-based model
-- no ethical/religious/philosophical papers
-- adult participants
+To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust" **, "intergroup"**, and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there were not chronological or geographical limitations, once again to provide a broader vision on the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
+
+Criteria developed during screening: - no papers about agent-based model - no ethical/religious/philosophical papers - adult participants
 
 Initially, 5210 papers emerged from the key phrases search. After deleting the duplicates, the count was of 4586. Based on titles and abstracts, 4321 articles were eliminated, leaving 265 (**with emotions**) texts to examine. After a full-text evaluation of the remaining papers, XXX were selected for the present review. Figure 1 resumes this selection procedure.
 
 ## Papers' description
 
 # Individual factors
+
 ## Gender
+
 The effect of gender on cooperation is controversial, and studies that investigated it provided contradictory results: sometimes men cooperated more [@Dorrough2019], sometimes women did [@Peshkovskaya2017], and sometimes there was no difference between genders. In general, meta-analysis found a non significant effect size for this difference [e.g. @Balliet2011; @Spadaro2023]. This indicates that gender differences in cooperation are very flexible and can vary depending on the context [@Spadaro2023]. Therefore, when a significant effect is observed, it means that gender has somewhat been made salient by the situation [@Sell2009].
 
 One of the most observed moderator of this effect is the interaction partners. In fact, in a social dilemma experiment, women are more cooperative toward strangers than men are, while men cooperate more in a group of friends. Moreover, after a socialization phase where strangers could interact, men cooperated more than women [@Peshkovskaya2017]. These results seem to indicate that men accord more importance at the relationship with other members than women. @Gomez-Ruiz2020 also got to the same conclusion by showing that the creation of a team identity enhanced men's cooperation, but had no effects on women. Moreover, in a social dilemma with many iterations, men, but not women, tended to increase their cooperation over time [@Balliet2011].
 
-The partners' gender also have an impact on women's and men's cooperation. In general, groups composed only by men are more cooperative than only-women groups. This is explained by the fact that women are less achievement oriented and more socially oriented than men: they are therefore less concerned by the maximization of their personal payoff and more about relative payoff. Thus, the defection strategy allows them to play defensively and to avoid earning less than the other players [@Colman2018]. Moreover, men displayed higher levels of gratitude and trust in same-sex groups than women [@Peshkovskaya2019]. On the other side, women cooperate more in mixed group. In fact, when both men and women are present, gender stereotypes are activated and people tend to adapt their behaviour to them. This leads women to behave in a more prosocial, altruistic way and men to be more self-oriented and competitive [@Balliet2011]. The same result is also found by @Peshkovskaya2019, who also demonstrated that women reported a stronger social connection with their partners in mixed than in same-sex groups.
-The overall group composition also have an impact on cooperation: in general, groups with a majority of women display the highest levels of cooperation [@Spadaro2023]. However, @Barrero-Amortegui2021 showed that the level of resource exploitation is linked to the number of women in a group, but that this link is mediated by the signature of an agreement about extraction. More precisely, in their experiment, groups with a majority of women extracted more resources from a common good (and thus cooperated less) before the signature of the agreement, but also showed the largest reduction of the exploitation level after the agreement was signed. Therefore, even the effect of group composition seems to be subjected to moderator variables.
+The partners' gender also have an impact on women's and men's cooperation. In general, groups composed only by men are more cooperative than only-women groups. This is explained by the fact that women are less achievement oriented and more socially oriented than men: they are therefore less concerned by the maximization of their personal payoff and more about relative payoff. Thus, the defection strategy allows them to play defensively and to avoid earning less than the other players [@Colman2018]. Moreover, men displayed higher levels of gratitude and trust in same-sex groups than women [@Peshkovskaya2019]. On the other side, women cooperate more in mixed group. In fact, when both men and women are present, gender stereotypes are activated and people tend to adapt their behaviour to them. This leads women to behave in a more prosocial, altruistic way and men to be more self-oriented and competitive [@Balliet2011]. The same result is also found by @Peshkovskaya2019, who also demonstrated that women reported a stronger social connection with their partners in mixed than in same-sex groups. The overall group composition also have an impact on cooperation: in general, groups with a majority of women display the highest levels of cooperation [@Spadaro2023]. However, @Barrero-Amortegui2021 showed that the level of resource exploitation is linked to the number of women in a group, but that this link is mediated by the signature of an agreement about extraction. More precisely, in their experiment, groups with a majority of women extracted more resources from a common good (and thus cooperated less) before the signature of the agreement, but also showed the largest reduction of the exploitation level after the agreement was signed. Therefore, even the effect of group composition seems to be subjected to moderator variables.
 
 Another reason why gender differences in cooperation are often very small is that fear and greed motives are confused in a classical social dilemma situation [@Simpson2003]. In this contexts, a feeling of fear arises when one's cooperation could be exploited by others' free-riding, while greed is the feeling associated with the temptation to free-ride on others' cooperation. According to social psychology and evolutionary theories, the author expected women to defect more when fear incentives were present, and men to defect more with greed incentives. Although he could corroborate only the second hypothesis, his intuition about women being more sensitive to the fear of being exploited is confirmed by other studies. For example, women level of cooperation is predicted by their trust in their interaction partner, while men's trust and cooperation are not linked [@Irwin2015]. Moreover, women's lower cooperation is explained by the fact that they expected their partner to contribute less to the common good [@Dorrough2019].
 
 Finally, some of the analyzed papers presented interesting secondary results. First, against their authors' expectations, some intercultural studies showed that the gender difference in cooperation is not explained by the level of gender equality of the country [@Dorrough2019; @Spadaro2023]. Secondly, in an experiment not involving a social dilemma, women were significantly more altruistic than men [@Dorrough2019]. According to the authors, this underlines the importance of distinguishing between prosociality and strategic interactions that characterize social dilemmas. Therefore, in a situation where classical attributes of social dilemmas are not explicit, gender difference in cooperation could not be subjected to the same moderator effects described above. Lastly, according to @Sell2009, it is not possible to think about gender without relying it to social status, with men representing the high-status group. Therefore, gender differences in cooperation could also be caused by social status: to have a better understanding of this hypothesis, it would be interesting to investigate the difference in cooperation between two other social groups with a different status (e.g. high and low socioeconomic status).
 
-In conclusion, "at times women are more cooperative than men, less cooperative than men, or equally as cooperative as men. These variations are explained, in large part, by structural differences and identities triggered by those differences" [@Sell2009]. The context in which men and women interact is therefore essential to predict if a gender will cooperate more than the other, and which one. 
+In conclusion, "at times women are more cooperative than men, less cooperative than men, or equally as cooperative as men. These variations are explained, in large part, by structural differences and identities triggered by those differences" [@Sell2009]. The context in which men and women interact is therefore essential to predict if a gender will cooperate more than the other, and which one.
 
 ## Group identity
+
 @Gomez-Ruiz2020: even if study about gender differences, they found a main effect of team identity on cooperation
+@Arora2016: baseline = reciprocity: participants respond with defection to defection and with cooperation to cooperation, but in-group identification can change this --> main effect of identification on cooperation
+faced to an in-group defector, high identifiers cooperate more than low (no difference between high and low when the partner cooperates) = compensation + this compensation comes with lower trust toward the partner who defected, so the cooperation is not driven by in-group favoritism
+@Torsvik2011: group identity as mediator of anticipating a discussion (see if useful or not to add it here)
+@VanVugt2009: mention that it happens that high-identifying members compensate for free-riders + when people identify with a social group the are more concerned about their in-group reputation
+boost of social identity through inducing competition between groups, but not helpful --> promote a superordinate social identity
+group member that strongly identify with their community do not need an economic incentive to cooperate
+@Puurtinen2009: between group competition enhances cooperation (even between unrelated individuals) by aligning individual and group interest --> investements in public good higher in the group competition vs normal condition + in the group competition there was more anger toward in-group free-rider and guilt toward its own lack of cooperation --> ingroup identification can be enhanced via intergroup competition
+@Noonan2016: study about commons = dog parks --> "having a strong sens of community is related to increased voluntarism" + re-read to see if others parts could be interesting
+@Zhang2019: collective risk as operationalization of group identity: (1) cooperation decreased with time when the risk was individual, but not when it was collective; (2) beliefs about others' cooperation formed similarly under the two conditions = these beliefs are interpreted in a different way according to the condition
+@Dorrough2015: ingroup favoritism increase with time and it is mediated by expectations of others' contributions + the increment is due to the change between ingroup and outgroup as interaction partners, it is not gradual
 
-# Discussion
+@Bardsley2005: paper about conformity (see if it can be useful in this section)
 
+#D
 
 \newpage
 
