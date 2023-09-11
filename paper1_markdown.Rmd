@@ -137,9 +137,9 @@ group member that strongly identify with their community do not need an economic
 @Zhang2019: collective risk as operationalization of group identity: (1) cooperation decreased with time when the risk was individual, but not when it was collective; (2) beliefs about others' cooperation formed similarly under the two conditions = these beliefs are interpreted in a different way according to the condition
 @Dorrough2015: ingroup favoritism increase with time and it is mediated by expectations of others' contributions + the increment is due to the change between ingroup and outgroup as interaction partners, it is not gradual
 
-@Bardsley2005: paper about conformity (see if it can be useful in this section)
+@Bardsley2005: paper about conformity (see if it can be useful in this section)   
 
-#D
+#Discussion
 
 \newpage
 
