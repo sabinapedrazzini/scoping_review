@@ -17,7 +17,7 @@ affiliation:
   - id            : "1"
     institution   : "University of Bern"
 
-authornote: | TEST!!
+authornote: |
 
 abstract: |
   One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
@@ -71,6 +71,8 @@ Classical economic theories have described human being as "homo economicus". Thi
 
 where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980]. **\<- EXPLAIN BETTER!!!**
 
++ @Kramer1984: see the phrases underlined in the introduction
+
 Thus, the most rational behaviour for everyone would be to defect, because it would ensure the maximum outcome independently of other individuals' choices. ADD NASH EQUILIBRIUM??? (@Colman2018 = at page 2 good definition of Nash) However, as with altruism, cooperative decisions are often made in social dilemmas, showing that human beings are not always rational in the economic, individual sense [@Kollock1998] and that there are multiple factors that can influence people's decisions in such situations (see for example @VanLange2013 for a review).
 
 b.  Moreover, some studies consider cooperation to be the intuitive option, while defection needs more thinking (Kieslich & Hilbig, 2014)
@@ -79,6 +81,8 @@ c.  A deeper understanding of mechanisms underlying cooperation in social dilemm
 -   cooperation even more fragile when scarce resources (De Luca et al.) =\> importance of understanding it
 
 Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons.
+
+@Jackson2012: according to economist, cooperation is an irrational response in social dilemmas (see the articles that he cites)
 
 -   This is even more important if we consider the practical implication that social dilemmas have in our society: social dilemmas could be translated into commons
 
@@ -128,7 +132,6 @@ In conclusion, "at times women are more cooperative than men, less cooperative t
 @Gomez-Ruiz2020: even if study about gender differences, they found a main effect of team identity on cooperation
 @Arora2016: baseline = reciprocity: participants respond with defection to defection and with cooperation to cooperation, but in-group identification can change this --> main effect of identification on cooperation
 faced to an in-group defector, high identifiers cooperate more than low (no difference between high and low when the partner cooperates) = compensation + this compensation comes with lower trust toward the partner who defected, so the cooperation is not driven by in-group favoritism
-@Torsvik2011: group identity as mediator of anticipating a discussion (see if useful or not to add it here)
 @VanVugt2009: mention that it happens that high-identifying members compensate for free-riders + when people identify with a social group the are more concerned about their in-group reputation
 boost of social identity through inducing competition between groups, but not helpful --> promote a superordinate social identity
 group member that strongly identify with their community do not need an economic incentive to cooperate
@@ -136,8 +139,12 @@ group member that strongly identify with their community do not need an economic
 @Noonan2016: study about commons = dog parks --> "having a strong sens of community is related to increased voluntarism" + re-read to see if others parts could be interesting
 @Zhang2019: collective risk as operationalization of group identity: (1) cooperation decreased with time when the risk was individual, but not when it was collective; (2) beliefs about others' cooperation formed similarly under the two conditions = these beliefs are interpreted in a different way according to the condition
 @Dorrough2015: ingroup favoritism increase with time and it is mediated by expectations of others' contributions + the increment is due to the change between ingroup and outgroup as interaction partners, it is not gradual
+@Jackson2011 + @Jackson2012: group performance and group identity on cooperation
+@Nockur2020: positive effect of intergroup competition (but not of dispositional competitiveness) on cooperation in social dilemmas
+@Kramer1984: a superordinate identity enhances cooperation
 
 @Bardsley2005: paper about conformity (see if it can be useful in this section)   
+@Torsvik2011: group identity as mediator of anticipating a discussion (see if useful or not to add it here)
 
 #Discussion
 
