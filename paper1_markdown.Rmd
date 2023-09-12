@@ -69,6 +69,7 @@ knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
 @Torsvik2011: in the introduction says that people in social dilemma are confused and can make random choices = argument against the completely rational human (see wich papers they cited)
+doi:10.1098/rstb.2010.0135: in the introduction they cite papers that have observed cooperation
 
 **??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998) The study of cooperation is particularly interesting in social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. add Dawes' definition
 
@@ -132,7 +133,7 @@ In conclusion, "at times women are more cooperative than men, less cooperative t
 
 ## Group identity
 
-Social identity have a consensual positive effect on cooperation: the more individuals feel a strong identification with a group, the more they cooperate with other members of the group (e.g. @Arora2016; @Noonan2016; @Gomez-Ruiz2020). For example, in a field study about community-organized dog parks in the United States, @Noonan2016 found that a strong sense of community was related to a higher amount of voluntary activities to maintain the parks in good conditions. This is explained by the fact that, when people strongly identify with a social group, they are more concerned about their group's well-being and reputation [@VanVugt2009] and they accord more importance to group-related goal [@Arora2016]. A strong social identity also maintains a high level of cooperation over time [@Zhang2019]. Moreover, independently of the strength of group identification, people cooperate more with other people in the same group than with out-group people [@Dorrough2015].
+Social identity have a consensual positive effect on cooperation: the more individuals feel a strong identification with a group, the more they cooperate with other members of the group (e.g. @Arora2016; @Noonan2016; @Gomez-Ruiz2020). For example, in a field study about community-organized dog parks in the United States, @Noonan2016 found that a strong sense of community was related to a higher amount of voluntary activities to maintain the parks in good conditions. This is explained by the fact that, when people strongly identify with a social group, they are more concerned about their group's well-being and reputation [@VanVugt2009] and they accord more importance to group-related goal [@Arora2016]. A strong social identity also maintains a high level of cooperation over time [@Zhang2019]. Moreover, independently of the strength of group identification, people cooperate more with other people in the same group than with out-group people [@Dorrough2015; @Aksoy2019].
 
 However, the fact that not all members identify with their group to the same extent can lead to inequalities on cooperation. For example, @VanVugt2009 mentioned that high identified individual can even compensate, by cooperating more, for other in-group members' defection. The same result was also found by @Arora2016: high identified individuals cooperated more than low identified ones when faced to an in-group participant who defected (this difference was not found when the defector was not a group member). However, this compensation came with a cost, since participants who compensated for an in-group defector reported lower trust toward this person.
 
@@ -142,7 +143,15 @@ However, despite the observed beneficial effects of inducing an intergroup compe
 
 Finally, social identity does not only have a main effect on people's cooperation, but can also moderate other factors' impact. For example, monetary incentive are more effective at enhancing cooperation of low identified individual than of high identified ones [@VanVugt2009]. Moreover, a previous group failure can decrease cooperation between low identified member, but this effect is not observed in people who have a strong identification with their group [@Jackson2011; @Jackson2012].
 
-In general, social identity seems to have a positive and largely observed effect on individuals' cooperation. This is due to the fact that humans have a very developed sense of belonging to social groups, and that this has an impact on their willingness to help other members of their group [@VanVugt]. Since priming a common social identity is quite simple (e.g. @Kramer1984; @Zhang2019), this could be a very powerful method to enhance cooperation in an easy and cheap way.
+In general, social identity seems to have a positive and largely observed effect on individuals' cooperation. This is due to the fact that humans have a very developed sense of belonging to social groups, and that this has an impact on their willingness to help other members of their group [@VanVugt]. Since priming a common social identity is quite simple (e.g. @Kramer1984; @Zhang2019), this could be a very powerful technique to enhance cooperation in an easy and cheap way.
+
+## Personal values and attitudes
+
+@Kieslich2014: HEXACO factor Humility Honesty predicts cooperation
+@Emonds2011: interaction pro-self/pro-social x type of game
+@Liu2009: independent vs interdependent self
+@Probst1999: different patterns of cooperation based on culture (vertical individualist, vertical collectivist, HI, HC)
+
 
 # Discussion
 
