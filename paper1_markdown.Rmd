@@ -86,6 +86,8 @@ c.  A deeper understanding of mechanisms underlying cooperation in social dilemm
 
 Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons.
 
++ @VanLange1998: many behaviours that tend to serve our personal well-being are detrimental to the environment
+
 @Jackson2012: according to economist, cooperation is an irrational response in social dilemmas (see the articles that he cites)
 
 -   This is even more important if we consider the practical implication that social dilemmas have in our society: social dilemmas could be translated into commons
@@ -94,6 +96,7 @@ a.  Climate change as social dilemmas
 b.  Definition of commons  commons as social dilemmas
 c.  Article that says that social dilemmas are not the same as commons (Cole & Grossman, 2010)
 d.  But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
++ @Sussman2016: at page 11 mention that simulation of commons can be realistic why people feel real emotions (see the articles they cited)
 e.  Existing theory about the commons = similar structure than for social dilemmas: rational human beings are supposed to fail (TOC, Hardin, 1986), but in reality cooperation is often observed (for example Ostrom, 1990 + find others)
 
 -   Importance of commons: Pacheco et al. (2014) having small groups behaving in an ecological way is efficient against climate change  very important to understand under which conditions cooperation could be enhanced in commons
@@ -147,13 +150,22 @@ In general, social identity seems to have a positive and largely observed effect
 
 ## Personal values and attitudes
 
-@Kieslich2014: HEXACO factor Humility Honesty predicts cooperation
-@Emonds2011: interaction pro-self/pro-social x type of game
-@Liu2009: independent vs interdependent self
-@Probst1999: different patterns of cooperation based on culture (vertical individualist, vertical collectivist, HI, HC)
+Personality plays a substantial role in predicting cooperation [@Hilbig2018]
 
+@Kieslich2014: HEXACO factor Humility Honesty predicts cooperation
+  @Hilbig2018: this link is explained by greed (temptation to exploit others' cooperation)
+@Emonds2011: interaction pro-self/pro-social x type of game
+@Liu2009a: independent vs interdependent self
+@Probst1999: different patterns of cooperation based on culture (vertical individualist, vertical collectivist, HI, HC)
+@Sussman2016: pro-env values predict less harvesting only when a resource is scarce
+@VanLange1998: field study on commuting --> proself accord more importance to the perceived efficacy of the behaviour (= personal well-being) than prosocial + prosocial with high trust expressed significantly more preference for a common transport/carpooling than the other three groups
+@DeKwaadsteniet2008: interaction between group size (un)certainity and SVO, and the self-restraining effect observed in prosocial under uncertainity condition is explained by the motive to have a maximal joint outcome (but not by equality, even if this motive is more important for prosocial than proself)
+@Balliet2009: meta-analysis: SVO has a general positive effect on cooperation + 2 mediators = paid vs unpaid (in unpaid situations SVO effect was stronger) and take-some vs give-some dilemmas (in give-some SVO effect was stronger)
+@Kocher2017: self control and risk aversion impact cooperation
 
 # Discussion
+
+observation: majority of papers included are about SD, and very few studies about commons are quantitative --> future research: quantitative approach to investigate cooperation in common initiatives
 
 \newpage
 
