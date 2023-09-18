@@ -66,6 +66,8 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
+introduction of the societal problem = cooperation (= renonce to the individual most advantageous choice for the common good) is the key to resolve many societal problems (e.g. covid vaccination, climate change)
+
 Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
 @Torsvik2011: in the introduction says that people in social dilemma are confused and can make random choices = argument against the completely rational human (see wich papers they cited) <doi:10.1098/rstb.2010.0135>: in the introduction they cite papers that have observed cooperation
@@ -83,7 +85,7 @@ c.  A deeper understanding of mechanisms underlying cooperation in social dilemm
 
 -   cooperation even more fragile when scarce resources (De Luca et al.) =\> importance of understanding it
 
-Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons.
+Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons. (**USE THIS AT THE VERY BEGINNING TO INTRODUCE THE SOCIETAL PROBLEM?**)
 
 -   @VanLange1998: many behaviours that tend to serve our personal well-being are detrimental to the environment
 
@@ -111,7 +113,7 @@ a.  ?? Is it to mention that I focus on what a group can do, without focusing on
 
 # Methods
 
-To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust" **, "intergroup"**, and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there were not chronological or geographical limitations, once again to provide a broader vision on the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
+To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust" **, "intergroup"**, and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there were not chronological or geographical limitations, once again to provide a broader vision of the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
 
 Criteria developed during screening: - no papers about agent-based model - no ethical/religious/philosophical papers - adult participants
 
@@ -137,11 +139,11 @@ In conclusion, "at times women are more cooperative than men, less cooperative t
 
 ## Group identity
 
-Social identity have a consensual positive effect on cooperation: the more individuals feel a strong identification with a group, the more they cooperate with other members of the group (e.g. @Arora2016; @Noonan2016; @Gomez-Ruiz2020). For example, in a field study about community-organized dog parks in the United States, @Noonan2016 found that a strong sense of community was related to a higher amount of voluntary activities to maintain the parks in good conditions. This is explained by the fact that, when people strongly identify with a social group, they are more concerned about their group's well-being and reputation [@VanVugt2009] and they accord more importance to group-related goal [@Arora2016]. A strong social identity also maintains a high level of cooperation over time [@Zhang2019]. Moreover, the link between group identification and cooperation is the same for individualist and collectivist people [@Chen2007], which is a further confirmation of the strength of this effect. Finally, independently of the strength of group identification, people cooperate more with other people in the same group than with out-group people [@Dorrough2015; @Aksoy2019].
+Social identity have a consensual positive effect on cooperation: the more individuals feel a strong identification with a group, the more they cooperate with other members of the group [e.g. @Arora2016; @Noonan2016; @Gomez-Ruiz2020]. For example, in a field study about community-organized dog parks in the United States, @Noonan2016 found that a strong sense of community was related to a higher amount of voluntary activities to maintain the parks in good conditions. This is explained by the fact that, when people strongly identify with a social group, they are more concerned about their group's well-being and reputation [@VanVugt2009] and they accord more importance to group-related goal [@Arora2016]. A strong social identity also maintains a high level of cooperation over time [@Zhang2019]. Moreover, the link between group identification and cooperation is the same for individualist and collectivist people [@Chen2007], which is a further confirmation of the strength of this effect. Finally, independently of the strength of group identification, people cooperate more with other people in the same group than with out-group people [@Dorrough2015; @Aksoy2019].
 
 However, the fact that not all members identify with their group to the same extent can lead to inequalities on cooperation. For example, @VanVugt2009 mentioned that high identified individual can even compensate, by cooperating more, for other in-group members' defection. The same result was also found by @Arora2016: high identified individuals cooperated more than low identified ones when faced to an in-group participant who defected (and this difference was not found when the defector was not a group member). However, this compensation came with a cost, since participants who compensated for an in-group defector reported lower trust toward this person.
 
-Another well replicated result is the positive effect of intergroup competition on intragroup cooperation. In fact, in-group identification can be enhanced via a competition between different groups, because in such a context individual's and group's interests are aligned [@Puurtinen2009]. In a social dilemma experiment, these authors demonstrated that cooperation was higher in an intergroup-competition condition than in a non-competitive condition. Moreover, when participants had to compete against other groups, they reported higher levels of anger toward in-group free-riders and they felt more guilty after a defection decision. In another experiment using a public resource game, intergroup competition reduced resources consumption (and therefore enhanced cooperation), while individual, dispositional competitiveness predicted an higher level of harvesting [@Nockur2020]. This shows that the increase of cooperation via competition is due to group membership factors, and not to competition per se.
+Another well replicated result is the positive effect of intergroup competition on intragroup cooperation. In fact, in-group identification can be enhanced via a competition between different groups, because in such a context individual's and group's interests are aligned [@Puurtinen2009]. In a social dilemma experiment, these authors demonstrated that cooperation was higher in an intergroup-competition condition than in a non-competitive condition. Moreover, when participants had to compete against other groups, they reported higher levels of anger toward in-group free-riders and they felt more guilty after a defection decision. In another experiment using a public resource game, intergroup competition reduced resources consumption, while individual, dispositional competitiveness predicted an higher level of harvesting [@Nockur2020]. This shows that the increase of cooperation via competition is due to group membership factors, and not to competition per se.
 
 However, despite the observed beneficial effects of inducing an intergroup competition, in a real-life situation this could be harmful. This is especially true in case of resources that are shared between several groups, which are at greater risk of over-exploitation in case of intergroup competition [@VanVugt2009]. A possible solution to maintain the positive effects of group identification, while eliminating the risk of over-exploitation caused by the competitive context, is to prime a superordinate identity [@VanVugt2009]. In fact, intergroup cooperation can be enhanced by making salient the common characteristics of the different groups, instead of their differences [@Kramer1984]. Another effective way to create a superordinate identity is to induce the feeling of a common fate, for example through a collective risk. In fact, a common fate allows a group to become real [@Zhang2019], and can therefore erase intergroup competition.
 
@@ -162,6 +164,57 @@ Other studies also focused on how much people are self- or social-oriented by us
 Finally, there are other personal values and traits that can affect cooperation. For example, pro-environmental values are negatively correlated with harvesting from a common resource, but only when the resource is scarce; therefore these values are more likely to motivate difficult, rather than easy, ecological behaviours [@Sussman2016]. Levels of harvesting from a common resource are also lower between left-wingers than right-wingers [@Fosgaard2019]. Moreover, humility and honesty are significant predictor of cooperation [@Kieslich2014], and this is due to the fact that people with such characteristics manage to resist to the temptation to exploit others' contributions [@Hilbig2018]. Lastly, self-control also plays a role, in the sense that more self-control leads to a greater cooperation [@Kocher2017].
 
 In conclusion, values and personality traits have a large impact on human cooperation, and it is thus very important to take them into account when investigating this phenomenon. Interestingly, some social psychological techniques (e.g. elaboration) allow to modify an individual's values [@Sussman2016]. Such techniques could therefore be used to improve cooperation.
+
+## Social status???
+
+retrieve work on gender that says that gender effects are probably in part impacted by status?
+
+# Group factors
+
+## Reward and punishment
+
+Possible introduction: Incentives are divided in reward and punishments. Punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2016]. The positive effect of punishment in promoting cooperation is well confirmed ...
+
+On the other side, results about rewarding are not so consensual ...
+
+@Chen2022: reward, but not punishment, increased cooperation in the following round for both high and low benefit members
+
+@Nockur2021: punishment (three different types) increase cooperation + the presence of a punishment system increased the perception of fairness + satisfaction was higher in peer and democratic punishment than in centralized and no punishment condition
+
+@Kingsley2016: the possibility of punish others increased the cooperation in homogeneous groups (= where all members started with the same endowment), but not in heterogeneous groups
+
+@Milinski2012: punishment is worthy on the long run (straight after, the ones who punished are the ones with the lowest income) + reward is less efficient than punishment (punish: at the beginning, to establish cooperation, reward is a cost all along because once cooperation is established you always have to continue rewarding it) + punishment can however entail a second-order social dilemma (defection = do not punish but having advantages for the fact that everybody cooperates thanks to punishers)
+
+@Xiao2016: higher cooperation if only the cooperator can punish the defector (vs everybody can punish), and in particular for deterministic (vs stochastic) game\
+when both can punish, anti-social punishment is present --\> effect = a person who cooperated and received a punishment in t is less likely to cooperate in t+1 (proportional)\
+in stochastic games, the occurrence of a negative event is not a predictor for punishing (= based on other's defection, independently of the outcome)\
+punishment of non-investor is smaller in stochastic (vs deterministic) games
+
+@Balliet2011a: PUN: positive effect on cooperation in social dilemmas\
+stronger if the punishment was costly (vs free)\
+stronger if decentralized (vs centralized)\
+stronger if SD with partners (vs strangers)\
+stronger if iterated (vs one-shot)\
+REWARD: positive effect on cooperation in social dilemmas\
+stronger if costly vs free\
+no effect of de-centralized\
+stronger if iterated (vs one-shot)\
+stronger in the resource dilemma (vs public good or prisoner dilemma)\
+OVERALL: no difference on the strength of these effects
+
+@Jacquet2011: the expectation of honour and shame enhance cooperation
+
+@Rockenbach2019: successful groups punish, but with caution and not in early stages (see Excel for more results)
+
+@VanDijk2016: results are both in the introduction and result case
+
+exclusion as a form of punishment
+
+## Communication
+
+## Group size
+
+## Social Norms
 
 # Discussion
 
