@@ -66,61 +66,42 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
-Many societal problems that humans are facing nowadays are social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. More specifically, independently of others' actions, every individual obtains a better individual payoff by acting in an egoistic, non-cooperative way. However, if everybody did so, the worst possible outcome is obtained ????
+Many societal problems that humans are facing nowadays have a social dilemma structure [@Kollock1998], i. e. they are situations in which short-term, individual interests are at odds with long-term, collective ones [@Hardin1968]. More specifically, each individual obtains a higher personal payoff with a non-cooperative, self-interested behaviour than with a social, cooperative one, independently from what others do. However, everybody's payoff is higher if all cooperate than if all defect [@Dawes1980].
 
-where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980].
+An example of real-life social dilemma is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, since behaviours that serve our personal well-being tend to be detrimental to the environment [@VanLange1998], if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody paid it, public television would no longer exist. Cooperation (i.e. sacrificing for the grater good at a personal cost, [@Kollock1998]) is therefore essential to avoid the worst collective outcome in social dilemma situations, and that is why a deep comprehension of this phenomenon is needed.
 
+Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, individuals are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. Instead, the evolutionary perspective suggests that individuals can cooperate when doing so bring them a personal advantage. For example, the theory of competitive altruism [@Roberts1998] says that acting for the others' good could be a signal of a person's prosociality, and therefore improve this person's reputation. Moreover, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. In sum, according to economic and evolutionary theories, individuals are always pursuing their self-interest.
 
-after the definition: putting the economic theories etc + saying that however cooperation is observed --> explain why!
+However, in social dilemma experiments, a significant amount of people are "strong reciprocators": they are willing to use their personal resources to "be kind to those who are being kind and to punish those who are being unkind", even if they are not certain that their altruistic behaviour will be rewarded [@Fehr2002; @Gachter2009]. This shows that cooperation is not always driven by personal interest and that people care about others' and environment's welfare[@Torsvik2011; @VanVugt2009]. In addiction to that, there are evidences suggesting that people do not always thoroughly analyze the context to take a rational cooperative or non-cooperative decision. In fact, cooperation seems to be the intuitive option in social dilemma experiments, while defection needs more thinking [@Kieslich2014]. Moreover, people can also cooperate in part because they are confused about the situation [@Andreoni1995]. Therefore, people are not always rational in the economic, individualistic way [@Kollock1998], and there are multiple factors that can influence their behaviour in social dilemmas situations [@VanLange2013].
 
-Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons. (**USE THIS AT THE VERY BEGINNING TO INTRODUCE THE SOCIETAL PROBLEM?**)
+## Commons as social dilemmas
 
+Commons are a very specific kind of social dilemma. **FIND A DEFINITION (lol) that shows the similarity with social dilemmas (common resource, ...) !!** + Since, as in social dilemmas, a conflict between individual and collective interest is present @Sussman2016 used the term of "commons dilemmas" to speak about commons.
 
-introduction of the societal problem = cooperation (= renonce to the individual most advantageous choice for the common good) is the key to resolve many societal problems (e.g. covid vaccination, climate change)
+Predictions about cooperations in commons are also similar to the social dilemma context: according to @Hardin1968 and his "Tragedy of the Commons", since individuals are likely to maximize their individual gain, commons are inevitably destined to failure due to the over exploitation of resources. However, successfully managed commons are often observed [e.g. @Ostrom1990] and, as discussed in the previous section, human beings are not motivated just by their personal interests.
 
-Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
+@Reindl2019: cooperation and defection in lab experiments are predictive of behaviours in a real public good (where individuals have to give resources to contribute to a public good)
 
-@Torsvik2011: in the introduction says that people in social dilemma are confused and can make random choices = argument against the completely rational human (see wich papers they cited) <doi:10.1098/rstb.2010.0135>: in the introduction they cite papers that have observed cooperation
+-   But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
 
-**??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998)  **\<- EXPLAIN BETTER!!!**
-
--   @Kramer1984: see the phrases underlined in the introduction
-
-Thus, the most rational behaviour for everyone would be to defect, because it would ensure the maximum outcome independently of other individuals' choices. ADD NASH EQUILIBRIUM??? (@Colman2018 = at page 2 good definition of Nash) However, as with altruism, cooperative decisions are often made in social dilemmas, showing that human beings are not always rational in the economic, individual sense [@Kollock1998] and that there are multiple factors that can influence people's decisions in such situations (see for example @VanLange2013 for a review).
-
-b.  Moreover, some studies consider cooperation to be the intuitive option, while defection needs more thinking (Kieslich & Hilbig, 2014)
-c.  A deeper understanding of mechanisms underlying cooperation in social dilemma is therefore necessary
-
--   cooperation even more fragile when scarce resources (De Luca et al.) =\> importance of understanding it
-
-
--   @VanLange1998: many behaviours that tend to serve our personal well-being are detrimental to the environment
-
-@Jackson2012: according to economist, cooperation is an irrational response in social dilemmas (see the articles that he cites)
-
--   This is even more important if we consider the practical implication that social dilemmas have in our society: social dilemmas could be translated into commons
-
-a.  Climate change as social dilemmas
-b.  Definition of commons  commons as social dilemmas
-c.  Article that says that social dilemmas are not the same as commons (Cole & Grossman, 2010)
-d.  But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
-
--   @Sussman2016: at page 11 mention that simulation of commons can be realistic why people feel real emotions (see the articles they cited)
-
-e.  Existing theory about the commons = similar structure than for social dilemmas: rational human beings are supposed to fail (TOC, Hardin, 1986), but in reality cooperation is often observed (for example Ostrom, 1990 + find others)
-
+```{=html}
+<!-- -->
+```
+-   @Sussman2016: at page 11 mention that simulation of commons can be realistic why people feel real emotions (see the articles they cited) "Nevertheless, simulated commons dilemmas do reflect some degree of realism"
 -   Importance of commons: Pacheco et al. (2014) having small groups behaving in an ecological way is efficient against climate change  very important to understand under which conditions cooperation could be enhanced in commons
+
+@Pacheco2014: "global coordination for a common good should be attempted by segmenting tasks in many small to medium sized groups, in which perception of risk is high and uncertainty in collective goals is minimized"
+
+ideal = decentralized agreements between smaller groups, possibly focused on regional issues are prone to significantly raise the probability of success in coordinating to tame the planet's climate
+
 -   Aim of this scoping review = shed light on cooperation both in social dilemmas and in commons by (1) identifying individual factors that can enhance it and (2) understanding what kind of group organization groups can set to improve a cooperation of all members
 
 a.  ?? Is it to mention that I focus on what a group can do, without focusing on how external institutions can influence cooperation?? If so, see @Larsson2016
-
--   Research questions (see if not too redundant with the previous phrase)
-
--   introducing free-riding and defection concept somewhere (see @Gomez-Ruiz2020 introduction for free-riding)
+b.  
 
 # Methods
 
-To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust" **, "intergroup"**, and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there were not chronological or geographical limitations, once again to provide a broader vision of the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
+To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust", and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there was any chronological or geographical limitation, once again to provide a broader vision of the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
 
 Criteria developed during screening: - no papers about agent-based model - no ethical/religious/philosophical papers - adult participants
 
@@ -180,7 +161,7 @@ retrieve work on gender that says that gender effects are probably in part impac
 
 ## Reward and punishment
 
-Possible introduction: Incentives are divided in reward and punishments. Punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2016]. The positive effect of punishment in promoting cooperation is well confirmed ...
+Possible introduction: Incentives are divided in reward and punishments. Punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2015]. The positive effect of punishment in promoting cooperation is well confirmed ...
 
 On the other side, results about rewarding are not so consensual ...
 
@@ -213,7 +194,7 @@ OVERALL: no difference on the strength of these effects
 
 @Rockenbach2019: successful groups punish, but with caution and not in early stages (see Excel for more results)
 
-@VanDijk2016: results are both in the introduction and result case
+@VanDijk2015: results are both in the introduction and result case
 
 exclusion as a form of punishment
 
