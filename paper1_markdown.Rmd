@@ -66,15 +66,20 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
+Many societal problems that humans are facing nowadays are social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. More specifically, independently of others' actions, every individual obtains a better individual payoff by acting in an egoistic, non-cooperative way. However, if everybody did so, the worst possible outcome is obtained ????
+
+where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980].
+
+Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons. (**USE THIS AT THE VERY BEGINNING TO INTRODUCE THE SOCIETAL PROBLEM?**)
+
+
 introduction of the societal problem = cooperation (= renonce to the individual most advantageous choice for the common good) is the key to resolve many societal problems (e.g. covid vaccination, climate change)
 
 Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, human beings are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. However, prosocial acts are often observed in human interactions (**FIND REFERENCES**), and many theories have been developed to explain them. An example is the theory of competitive altruism [@Roberts1998], that says that acting for the good of others could be a signal of a person's prosociality and therefore improve this person's reputation. Moreover, in the evolutionary perspective, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. Adding something on cooperation norms? Maybe this could be the link between altruism and cooperation? See also the article in Zotero that says that altruism is one of the seven forms that cooperation could have, so maybe is it better to talk about cooperation from the beginning???
 
 @Torsvik2011: in the introduction says that people in social dilemma are confused and can make random choices = argument against the completely rational human (see wich papers they cited) <doi:10.1098/rstb.2010.0135>: in the introduction they cite papers that have observed cooperation
 
-**??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998) The study of cooperation is particularly interesting in social dilemmas, i. e. situations in which short-term individual and long-term collective interests are at odds [@Hardin1968]. add Dawes' definition
-
-where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980]. **\<- EXPLAIN BETTER!!!**
+**??? CONNECTING ALTRUISM WITH COOPERATION ???** Cooperation = sacrificing for the grater good at a personal cost (Kollock, 1998)  **\<- EXPLAIN BETTER!!!**
 
 -   @Kramer1984: see the phrases underlined in the introduction
 
@@ -85,7 +90,6 @@ c.  A deeper understanding of mechanisms underlying cooperation in social dilemm
 
 -   cooperation even more fragile when scarce resources (De Luca et al.) =\> importance of understanding it
 
-Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons. (**USE THIS AT THE VERY BEGINNING TO INTRODUCE THE SOCIETAL PROBLEM?**)
 
 -   @VanLange1998: many behaviours that tend to serve our personal well-being are detrimental to the environment
 
