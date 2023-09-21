@@ -70,6 +70,9 @@ Many societal problems that humans are facing nowadays are social dilemmas, i. e
 
 where each individual's payoff is higher with an egoistic, non-cooperative behaviour (no matter what others do), but where the best individual outcome is reached when everybody cooperates [@Dawes1980].
 
+
+after the definition: putting the economic theories etc + saying that however cooperation is observed --> explain why!
+
 Reaching a better understanding of mechanism underlying cooperation in social dilemmas is even more important when considering that many everyday situations have a social dilemma structure. An example is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody pays it, then public television will stop existing. + @Kollock1998: page 183, many of the problems that we face are, at their core, social dilemmas. A third example of real-life social dilemmas are commons. (**USE THIS AT THE VERY BEGINNING TO INTRODUCE THE SOCIETAL PROBLEM?**)
 
 
