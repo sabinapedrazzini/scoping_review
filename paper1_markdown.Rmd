@@ -83,10 +83,6 @@ Predictions about cooperations in commons are also similar to the social dilemma
 @Reindl2019: cooperation and defection in lab experiments are predictive of behaviours in a real public good (where individuals have to give resources to contribute to a public good)
 
 -   But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
-
-```{=html}
-<!-- -->
-```
 -   @Sussman2016: at page 11 mention that simulation of commons can be realistic why people feel real emotions (see the articles they cited) "Nevertheless, simulated commons dilemmas do reflect some degree of realism"
 -   Importance of commons: Pacheco et al. (2014) having small groups behaving in an ecological way is efficient against climate change  very important to understand under which conditions cooperation could be enhanced in commons
 
@@ -159,30 +155,46 @@ retrieve work on gender that says that gender effects are probably in part impac
 
 # Group factors
 
-## Reward and punishment
+## Incentives
 
-Possible introduction: Incentives are divided in reward and punishments. Punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2015]. The positive effect of punishment in promoting cooperation is well confirmed ...
+Cooperation rates can be modified by introducing incentives, who can be either punishments or rewards[^1]. In the litterature, punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2015], and its positive effect on cooperation is very consensual. In general, when there is the possibility for participants to punish others members based on their contributions, cooperation is higher than when this is not possible [e.g. @Pfattheicher2018; @Balliet2011a].
 
-On the other side, results about rewarding are not so consensual ...
+[^1]: Since the present paper's interest is to investigate how the internal organization of a group can affect cooperation, only papers that studied situations where the participants could give rewards or punishments to each-others are included.
 
-@Chen2022: reward, but not punishment, increased cooperation in the following round for both high and low benefit members
+However, this main results is subjected to several moderator factors. First, the punishment have a bigger impact on cooperation if its implementation is costly for the punishers than if it is free [@Balliet2011a], but at the same time the cost should not be too high [@Egas2008]. Moreover, punishments are more effective if the interaction is among friends than among strangers, and if people know that they will have to interact repeatedly with each other [@Balliet2011a]. Also, an experiment showed that a punishment system increased cooperation in groups where all members had the same amount of resources, but not in groups where income was heterogeneous [@Kingsley2016]. To add: @Chen2022 low members do not punish others low members --\> solidarity that encourages free-riding??
 
-@Nockur2021: punishment (three different types) increase cooperation + the presence of a punishment system increased the perception of fairness + satisfaction was higher in peer and democratic punishment than in centralized and no punishment condition
+moderators:
 
-@Kingsley2016: the possibility of punish others increased the cooperation in homogeneous groups (= where all members started with the same endowment), but not in heterogeneous groups
-
-@Milinski2012: punishment is worthy on the long run (straight after, the ones who punished are the ones with the lowest income) + reward is less efficient than punishment (punish: at the beginning, to establish cooperation, reward is a cost all along because once cooperation is established you always have to continue rewarding it) + punishment can however entail a second-order social dilemma (defection = do not punish but having advantages for the fact that everybody cooperates thanks to punishers)
+@Egas2008: punishment must be not too costly and highly effective
 
 @Xiao2016: higher cooperation if only the cooperator can punish the defector (vs everybody can punish), and in particular for deterministic (vs stochastic) game\
 when both can punish, anti-social punishment is present --\> effect = a person who cooperated and received a punishment in t is less likely to cooperate in t+1 (proportional)\
 in stochastic games, the occurrence of a negative event is not a predictor for punishing (= based on other's defection, independently of the outcome)\
 punishment of non-investor is smaller in stochastic (vs deterministic) games
 
-@Balliet2011a: PUN: positive effect on cooperation in social dilemmas\
-stronger if the punishment was costly (vs free)\
-stronger if decentralized (vs centralized)\
-stronger if SD with partners (vs strangers)\
-stronger if iterated (vs one-shot)\
+after the moderators: say that we must be cautious and cite rockenbach + cite the problems
+
+@Rockenbach2019: successful groups punish, but with caution and not in early stages (see Excel for more results)
+
+problem:
+
+-   second order social dilemma @Milinski2012
+
+-   anti social punishment
+
+solution = democratic, rather than peer, punishment: @Nockur2021: punishment (three different types) increase cooperation + the presence of a punishment system increased the perception of fairness + satisfaction was higher in peer and democratic punishment than in centralized and no punishment condition
+
+However, a system in which every individual has the possibility to assign a punishment to others can entail a second-order social dilemma [@Milinski2012], since cooperative participants can free-ride on the effort of other cooperators who punish non-cooperators
+
+@Milinski2012: punishment is worthy on the long run (straight after, the ones who punished are the ones with the lowest income) + punishment can however entail a second-order social dilemma (defection = do not punish but having advantages for the fact that everybody cooperates thanks to punishers)
+
+On the other side, results about rewarding are not so consensual ...
+
+@Chen2022: reward, but not punishment, increased cooperation in the following round for both high and low benefit members
+
+@Milinski2012:  + reward is less efficient than punishment (punish: at the beginning, to establish cooperation, reward is a cost all along because once cooperation is established you always have to continue rewarding it)
+
+@Balliet2011a: \
 REWARD: positive effect on cooperation in social dilemmas\
 stronger if costly vs free\
 no effect of de-centralized\
@@ -190,13 +202,17 @@ stronger if iterated (vs one-shot)\
 stronger in the resource dilemma (vs public good or prisoner dilemma)\
 OVERALL: no difference on the strength of these effects
 
-@Jacquet2011: the expectation of honour and shame enhance cooperation
-
-@Rockenbach2019: successful groups punish, but with caution and not in early stages (see Excel for more results)
-
 @VanDijk2015: results are both in the introduction and result case
 
+@Pfattheicher2018: democratic (vs peer) punishment showed lower punishment level, less antisocial punishment and higher final payoff and higher cooperation levels + the payoff was highest in a control condition, so higher cooperation cannot fully compensate punishment cost (although democratic could be worthy on the long run)
+
+@Irwin2014: punishment and reward have detrimental effects on cooperation + trust
+
 exclusion as a form of punishment
+
+@Nelissen2013: social punishment = disapproval is better than financial because cooperation rates do not drop after the removal
+
+@Jacquet2011: the expectation of honour and shame enhance cooperation
 
 ## Communication
 
