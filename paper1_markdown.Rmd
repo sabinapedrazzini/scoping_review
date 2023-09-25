@@ -70,9 +70,9 @@ Many societal problems that humans are facing nowadays have a social dilemma str
 
 An example of real-life social dilemma is the climate crisis that we are actually facing: engaging in pro-environmental behaviours to reduce our ecological footprint is often more complicated and less advantageous than acting without worrying about environment [@Griskevicius2010]. However, since behaviours that serve our personal well-being tend to be detrimental to the environment [@VanLange1998], if everyone defects by choosing the easy way, consequences will be (and already are) catastrophic. Another (less tragic) example is provided by @Kollock1998 and involves public television: the best outcome at the individual level would be to have access to the programs without paying the fee, but if nobody paid it, public television would no longer exist. Cooperation (i.e. sacrificing for the grater good at a personal cost, [@Kollock1998]) is therefore essential to avoid the worst collective outcome in social dilemma situations, and that is why a deep comprehension of this phenomenon is needed.
 
-Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, individuals are not supposed to show altruistic behaviours, i.e. behaviours that involve costs for the self while benefiting others [@Wittek2015]. Instead, the evolutionary perspective suggests that individuals can cooperate when doing so bring them a personal advantage. For example, the theory of competitive altruism [@Roberts1998] says that acting for the others' good could be a signal of a person's prosociality, and therefore improve this person's reputation. Moreover, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. In sum, according to economic and evolutionary theories, individuals are always pursuing their self-interest.
+Classical economic theories have described human being as "homo economicus". This means that, facing a choice, individuals are considered as completely rational and always maximizing (expected) utility [@Edwards1954]. Therefore, according to these theories, individuals are not supposed to show altruistic behaviours, defined as behaviours that involve costs for the self while benefiting others [@Wittek2015]. Instead, the evolutionary perspective suggests that individuals can cooperate when doing so bring them a personal advantage. For example, the theory of competitive altruism [@Roberts1998] says that acting for the others' good could be a signal of a person's prosociality, and therefore improve this person's reputation. Moreover, the capacity to endorse a personal cost communicates strength and wealth, socially valued characteristics [@Zahavi1995]. In sum, according to economic and evolutionary theories, individuals are always pursuing their self-interest.
 
-However, in social dilemma experiments, a significant amount of people are "strong reciprocators": they are willing to use their personal resources to "be kind to those who are being kind and to punish those who are being unkind", even if they are not certain that their altruistic behaviour will be rewarded [@Fehr2002; @Gachter2009]. This shows that cooperation is not always driven by personal interest and that people care about others' and environment's welfare[@Torsvik2011; @VanVugt2009]. In addiction to that, there are evidences suggesting that people do not always thoroughly analyze the context to take a rational cooperative or non-cooperative decision. In fact, cooperation seems to be the intuitive option in social dilemma experiments, while defection needs more thinking [@Kieslich2014]. Moreover, people can also cooperate in part because they are confused about the situation [@Andreoni1995]. Therefore, people are not always rational in the economic, individualistic way [@Kollock1998], and there are multiple factors that can influence their behaviour in social dilemmas situations [@VanLange2013].
+However, in social dilemma experiments, a significant amount of people are "strong reciprocators": they are willing to use their personal resources to "be kind to those who are being kind and to punish those who are being unkind", even if they are not certain that their altruistic behaviour will be rewarded [@Fehr2002; @Gachter2009]. This shows that cooperation is not always driven by personal interest and that people care about others' and environment's welfare[@Torsvik2011; @VanVugt2009]. In addiction to that, there are evidences suggesting that people do not always thoroughly analyze the context to take a rational cooperative or non-cooperative decision. In fact, cooperation seems to be the intuitive option in social dilemma experiments, while defection needs more thinking [@Kieslich2014]. Moreover, people can also cooperate in part because they are confused about the situation [@Andreoni1995]. Therefore, people are not always rational in the economic, individualistic way [@Kollock1998], and there are multiple factors that can influence their behaviour in social dilemmas situations [for a review, see @VanLange2013].
 
 ## Commons as social dilemmas
 
@@ -153,72 +153,69 @@ In conclusion, values and personality traits have a large impact on human cooper
 
 retrieve work on gender that says that gender effects are probably in part impacted by status?
 
+## Belief
+
 # Group factors
 
 ## Incentives
 
-Cooperation rates can be modified by introducing incentives, who can be either punishments or rewards[^1]. In the litterature, punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2015], and its positive effect on cooperation is very consensual. In general, when there is the possibility for participants to punish others members based on their contributions, cooperation is higher than when this is not possible [e.g. @Pfattheicher2018; @Balliet2011a].
+Cooperation rates can be modified by introducing incentives, who can be either punishments or rewards[^1]. In the litterature, punishment has received a greater attention than rewards [@Balliet2011a; @VanDijk2015], and its positive effect on cooperation is very consensual. In general, when there is the possibility for participants to punish others members based on their contributions, cooperation is higher than when this is not possible [e.g. @Pfattheicher2018; @Balliet2011a]. Moreover, the presence of a punishment system increases the perception of fairness [@Nockur2021].
 
-[^1]: Since the present paper's interest is to investigate how the internal organization of a group can affect cooperation, only papers that studied situations where the participants could give rewards or punishments to each-others are included.
+[^1]: Since the present paper's interest is to investigate how the internal organization of a group can affect cooperation, only papers that studied situations where the participants could give rewards or punishments to each-others are included. Incentives given by third party have also an effect on cooperation, but they are not included in this review.
 
-However, this main results is subjected to several moderator factors. First, the punishment have a bigger impact on cooperation if its implementation is costly for the punishers than if it is free [@Balliet2011a], but at the same time the cost should not be too high [@Egas2008]. Moreover, punishments are more effective if the interaction is among friends than among strangers, and if people know that they will have to interact repeatedly with each other [@Balliet2011a]. Also, an experiment showed that a punishment system increased cooperation in groups where all members had the same amount of resources, but not in groups where income was heterogeneous [@Kingsley2016]. To add: @Chen2022 low members do not punish others low members --\> solidarity that encourages free-riding??
+However, this main results is subjected to several moderator factors. First, the punishment have a bigger impact on cooperation if its implementation is costly for the punishers than if it is free [@Balliet2011a], but at the same time the cost should not be too high [@Egas2008]. Moreover, punishments are more effective if the interaction is among friends than among strangers, and if people know that they will have to interact repeatedly with each other [@Balliet2011a]. In fact, in short interactions, if punishment is costly, individuals who punish others are the ones with the lowest personal income [@Milinski2012], and this could discourage the application of the fine. Also, an experiment showed that a punishment system increased cooperation in groups where all members had the same amount of resources, but not in groups where income was heterogeneous [@Kingsley2016]. In fact, @Chen2022 found that, in groups where the initial endowment was heterogeneous, participants that received less didn't punish the others "low-status" members. This solidarity could therefore encourage free-riding. Moreover, the effect of punishment is stronger if only cooperators have the power to punish defectors, than if everybody can punish [@Xiao2016]. Finally, a plain situation is also needed to have a stronger effect of punishment: the link between behaviour and outcome must be clear, without random factors affecting the final outcome [@Xiao2016], and the punishment must be highly effective [@Egas2008].
 
-moderators:
+However, punishment must be applied with carefulness: @Rockenbach2019 compared the punishment strategy of different groups, and found that the most successful ones (whose members had the highest payoff at the end of the experiment) punished with caution and not in early stages of the game. In these groups, a norm of when and how punishment should be applied seems to exist. Moreover, punishment can also have two main negative sides. First, it could entails a second-order social dilemma [@Milinski2012], since cooperative participants can free-ride on the effort of other cooperators who punish non-cooperators. Secondly, anti-social punishment can arise. This term refer to the punishment of cooperators by non-cooperators, and it is present when all participants can punish independently of their contributions [@Xiao2016]. In this context, defectors can see cooperators as rule breakers, and anti-social punishment is a sort of retaliation [@VanDijk2015].
 
-@Egas2008: punishment must be not too costly and highly effective
+A possible solution could be to implement a system of democratic punishment, where a fine is given only if a majority of participants agree. In fact, compared to a peer punishment system where participants decide individually if and who punish, in a democratic system anti-social punishment is less present, general punishment level is lower, and final payoff and cooperation rates are higher [@Pfattheicher2018].
 
-@Xiao2016: higher cooperation if only the cooperator can punish the defector (vs everybody can punish), and in particular for deterministic (vs stochastic) game\
-when both can punish, anti-social punishment is present --\> effect = a person who cooperated and received a punishment in t is less likely to cooperate in t+1 (proportional)\
-in stochastic games, the occurrence of a negative event is not a predictor for punishing (= based on other's defection, independently of the outcome)\
-punishment of non-investor is smaller in stochastic (vs deterministic) games
+Rewarding systems, on the other side, are less investigated. Globally, they have a positive effect on cooperation[@Balliet2011a]. However, some studies found that they were more efficient than punishment [e.g. @Chen2022], while others came to the opposite conclusion [e.g. @Milinski2012] or found no difference between the two systems [e.g. @Balliet2011a].
 
-after the moderators: say that we must be cautious and cite rockenbach + cite the problems
+In a meta-analysis, @Balliet2011a found that rewards had a stronger effect on cooperation if their implementation was costly rather than free, and in iterated, rather than single, interactions. Moreover, rewarding was more effective in situations where participants had to decide how much take from a common resource, compared to when they had to decide how much contribute to a common good.
 
-@Rockenbach2019: successful groups punish, but with caution and not in early stages (see Excel for more results)
+In general, incentives seem to be a powerful tool to enhance cooperation, but they have a dark side. In fact, they reduce participants' intrinsic motivation [@VadDijk2015], by framing the situation as an economic, rather than ethical, dilemma [@VanVugt2009]. Also, when incentives are present people think that others cooperate just because of them, and this undermines their trust in other members[@Irwin2014], and especially the trust in the fact that others are internally motivated to cooperate [@Mulder2006]. Therefore, if incentives are removed, cooperation drops [@Irwin2014; @Mulder2006].
 
-problem:
+Finally, incentives are often studied in economic formats, but they can also be social. For example, the expectiation of honour or shame (after cooperating or defecting, respectively) is enough to enhance cooperation [@Jacquet2011]. Moreover, expressing disapproval toward defectors can boost cooperation by inducing more compliance to the cooperative social norm [@Nelissen2013]. Even an ostracism system where participants can vote to exclude other members from the game is very effective in increasing cooperation [@Jarungrattanapong2022]. In general, social sanctions can be even more efficient than economic ones, because cooperation do not drop after their removal [@Nelissen2013].
 
--   second order social dilemma @Milinski2012
-
--   anti social punishment
-
-solution = democratic, rather than peer, punishment: @Nockur2021: punishment (three different types) increase cooperation + the presence of a punishment system increased the perception of fairness + satisfaction was higher in peer and democratic punishment than in centralized and no punishment condition
-
-However, a system in which every individual has the possibility to assign a punishment to others can entail a second-order social dilemma [@Milinski2012], since cooperative participants can free-ride on the effort of other cooperators who punish non-cooperators
-
-@Milinski2012: punishment is worthy on the long run (straight after, the ones who punished are the ones with the lowest income) + punishment can however entail a second-order social dilemma (defection = do not punish but having advantages for the fact that everybody cooperates thanks to punishers)
-
-On the other side, results about rewarding are not so consensual ...
-
-@Chen2022: reward, but not punishment, increased cooperation in the following round for both high and low benefit members
-
-@Milinski2012:  + reward is less efficient than punishment (punish: at the beginning, to establish cooperation, reward is a cost all along because once cooperation is established you always have to continue rewarding it)
-
-@Balliet2011a: \
-REWARD: positive effect on cooperation in social dilemmas\
-stronger if costly vs free\
-no effect of de-centralized\
-stronger if iterated (vs one-shot)\
-stronger in the resource dilemma (vs public good or prisoner dilemma)\
-OVERALL: no difference on the strength of these effects
-
-@VanDijk2015: results are both in the introduction and result case
-
-@Pfattheicher2018: democratic (vs peer) punishment showed lower punishment level, less antisocial punishment and higher final payoff and higher cooperation levels + the payoff was highest in a control condition, so higher cooperation cannot fully compensate punishment cost (although democratic could be worthy on the long run)
-
-@Irwin2014: punishment and reward have detrimental effects on cooperation + trust
-
-exclusion as a form of punishment
-
-@Nelissen2013: social punishment = disapproval is better than financial because cooperation rates do not drop after the removal
-
-@Jacquet2011: the expectation of honour and shame enhance cooperation
+To conclude, economic incentives can have a positive effect on cooperation, but their efficient implementation must be insured all along the interaction, otherwise cooperation rates would drop. On the other hand, social incentives seem to have the same positive effect, and their removal do not cause a reduction of cooperation. However, there is a lack of studies focusing on this kind of sanctions.
 
 ## Communication
 
-## Group size
+@Torsvik2011:
+
+opposite to hypothesis: anticipating a discussion reduced contributions to a public good (social norm enhanced by anticipating a discussion is probably one of conditional cooperation and not of inconditional cooperation =\> cond coop is also a moral norm)
+
+in a PGG, people are also confused and make random choice: forcing to think about a discussion lead them to reflect more on the situation and act more rational + if the norm is of conditional cooperation, then rational = do not cooperate
+
+study 2: if participants are told that they're part of a social group and that those who don't contribute are free-riders, anticipating a discussion increased contributions
+
+if a discussion is announced, labelling defectors as free-riders has a big impact = communicates that there is a normative expectation to cooperate, so so anticipating a discussion enhances a norm of unconditional cooperation
+
+@Balliet2010:
+
+\- overall strong and positive effect of communication on cooperation
+
+\- stronger effect for the talking (vs written) communication =\> more norms during face-to-face + nonverbal communication (video or phone calls also have this effect)
+
+\- no difference of the effect if the communication was prior (vs during) the game, both are effective: communication before can create a social norm of keeping promise that sustain cooperation even if the communication is interrupted
+
+\- communication has a stronger effect on bigger (vs smaller) groups: big group = less cooperation, communication buffers this negative effect + evolutionary theories = more efficient to send a generosity signal if many (vs few) others are present
+
+@Bicchieri2002: norms are more important than group identity to explain the benefits of communication on cooperation
+
+@Kumakawa2013: just knowing that ex-post communication will be possible does not affect cooperation, but receiving an actual feedback does + negative feedback increased cooperation, while positive ones had no effect
+
+@Feinberg2014: gossip increased cooperation, especially when ostracize a person based on gossip content was possible, by facilitating partner selection
+
+@Giardini2021: gossip can also be a way to increase own reputation (by telling the truth)
+
+@Adams2022: qualitative analysis of communication contents in social dilemma --\> see page 29 of the paper to see which contents are associated with (un)successful groups
+
+## Group size --\> link with anonymity?
 
 ## Social Norms
+
+## Commitment
 
 # Discussion
 
