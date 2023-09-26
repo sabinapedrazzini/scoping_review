@@ -181,35 +181,15 @@ To conclude, economic incentives can have a positive effect on cooperation, but 
 
 ## Communication
 
-@Torsvik2011:
+Communication has a global positive effect on cooperation [e.g. @Balliet2010; @Bicchieri2002], but this effect is subjected to several moderators. First, talking is more powerful than sending written messages, because it allows non-verbal communication and facilitates the social norms formation process. Moreover, communication's effect is stronger in large groups: when many people are present cooperation rates are lower, so communication between members can buffer this negative effect [@Balliet2010]. Finally, if communicate with others requires a personal cost, the effect is weaker than if communication is free [@Janssen2014].
 
-opposite to hypothesis: anticipating a discussion reduced contributions to a public good (social norm enhanced by anticipating a discussion is probably one of conditional cooperation and not of inconditional cooperation =\> cond coop is also a moral norm)
+The content of the messages is also essential. @Koessler2021 identified four steps that need to be present when participants in a social dilemma situation communicate: problem awareness, identification of strategies, agreement and ratification. In another study, groups who used communication to foster a common social identity, promote cooperative social norms and ensure that all the players publicly committed displayed higher rates of cooperation than other groups [@Adams2022]. However, casual chit-chat also plays a very important role in increasing cooperation [@Koessler2021]. Also, the increase of cooperation through communication can be explained by the normative content that people are shaping while exchanging messages [@Janssen2014]. Moreover, even if communication also helps to create a social identity, the effect of social norms is a stronger mediator of the link between communication and cooperation [@Bicchieri2002].
 
-in a PGG, people are also confused and make random choice: forcing to think about a discussion lead them to reflect more on the situation and act more rational + if the norm is of conditional cooperation, then rational = do not cooperate
+Another factor that influences the effect that communication has on cooperation is whether individuals exchange messages before, during or after the cooperative interaction phase. Concerning the post-game communication, @Kumakawa2013 found that receiving a feedback about the cooperation choice made previously can increase cooperation in the following interactions, especially if the feedback is negative. However, just the fact of knowing that a discussion will follow is not enough to enhance cooperation, and can even have a counterproductive effect, because forcing people to think about a future discussion make them reflect more on the situation and thus act more rationally [@Torsvik2011]. On the other hand, communication before or during the interaction have both a positive impact on cooperation, and the difference between their effect is not significant [@Balliet2010].
 
-study 2: if participants are told that they're part of a social group and that those who don't contribute are free-riders, anticipating a discussion increased contributions
+Finally, several studies investigated the effect of gossip as a form of communication that can increase cooperation. Gossip is defined as a spread of reputational information about another person [@Feinberg2014], and it increases cooperation in two ways: first, if people know that gossip is possible, they tend to cooperate more to avoid the risk of being the target of such gossip and therefore of being excluded from following interactions. Secondly, having information about the past behaviour of potential cooperation partners can help to select the most cooperative people in an interaction situation [@Feinberg2014]. Moreover, the same authors found that pro-social individuals gossiped more than pro-self. This shows that gossip can have the pro-social function of protecting others from a potential exploitation [@Feinberg2012]. However, gossip has also some self-interest effects: for instance, observing another subject being exploited, and having the opportunity to gossip about the exploiter significantly reduced negative affects in @Feinberg2012 's participants. Moreover, providing correct information while gossiping helps to build a positive reputation [@Giardini2021].
 
-if a discussion is announced, labelling defectors as free-riders has a big impact = communicates that there is a normative expectation to cooperate, so so anticipating a discussion enhances a norm of unconditional cooperation
-
-@Balliet2010:
-
-\- overall strong and positive effect of communication on cooperation
-
-\- stronger effect for the talking (vs written) communication =\> more norms during face-to-face + nonverbal communication (video or phone calls also have this effect)
-
-\- no difference of the effect if the communication was prior (vs during) the game, both are effective: communication before can create a social norm of keeping promise that sustain cooperation even if the communication is interrupted
-
-\- communication has a stronger effect on bigger (vs smaller) groups: big group = less cooperation, communication buffers this negative effect + evolutionary theories = more efficient to send a generosity signal if many (vs few) others are present
-
-@Bicchieri2002: norms are more important than group identity to explain the benefits of communication on cooperation
-
-@Kumakawa2013: just knowing that ex-post communication will be possible does not affect cooperation, but receiving an actual feedback does + negative feedback increased cooperation, while positive ones had no effect
-
-@Feinberg2014: gossip increased cooperation, especially when ostracize a person based on gossip content was possible, by facilitating partner selection
-
-@Giardini2021: gossip can also be a way to increase own reputation (by telling the truth)
-
-@Adams2022: qualitative analysis of communication contents in social dilemma --\> see page 29 of the paper to see which contents are associated with (un)successful groups
+In conclusion, when people have the possibility to communicate before, during or after a cooperative interaction, the cooperation level increases. Even if the strength of this effect can vary depending on the situation, communication never seems to have a negative impact on cooperation.
 
 ## Group size --\> link with anonymity?
 
