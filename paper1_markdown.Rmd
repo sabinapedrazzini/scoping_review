@@ -1,6 +1,6 @@
 ---
-title             : "Cooperation in commons and social dilemmas: A scoping review"
-shorttitle        : "Cooperation in commons and social dilemmas"
+title             : "Improving the understanding of cooperation in commons through social dilemmas' literature: A scoping review"
+shorttitle        : "Improving the understanding of cooperation in commons"
 
 author: 
   - name          : "Pedrazzini Sabina"
@@ -66,6 +66,8 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
+**once selected the journal, re-organize all the introduction!!!**
+
 what is the connection between commons and social dilemmas? --\> well argument
 
 paper goal?
@@ -75,6 +77,8 @@ paper goal?
 -   if not commons --\> not so important
 
 -   commons are gaining always more interest because they could be a solution --\> start from this and then say that SD could be useful to understand + lack of quantitative studies about cooperation in commons
+
+    -   to make the link: list of papers that studied a common in a social dilemma perspective (ex: Hartl & Hofmann, 2022)
 
 -   discussion: critiques at SD because it is artificial, does not take into account all real-life factors --\> so it is good to keep it as a base, but investigations in commons are needed
 
@@ -98,6 +102,8 @@ Commons are a very specific kind of social dilemma. **FIND A DEFINITION (lol) th
 
 Predictions about cooperations in commons are also similar to the social dilemma context: according to @Hardin1968 and his "Tragedy of the Commons", since individuals are likely to maximize their individual gain, commons are inevitably destined to failure due to the over exploitation of resources. However, successfully managed commons are often observed [e.g. @Ostrom1990] and, as discussed in the previous section, human beings are not motivated just by their personal interests.
 
+@Franzen2019: example that commons can work (outlets in Swiss farms)
+
 @Reindl2019: cooperation and defection in lab experiments are predictive of behaviours in a real public good (where individuals have to give resources to contribute to a public good)
 
 -   But: Reindl et al. (2019) and Rommel et al. (2015)  behaviour in social dilemmas is informative about behaviours in commons + @Balliet2011: in the introduction (pages 1-2) there is a good explanation of social dilemma's utility to investigate cooperation
@@ -116,13 +122,27 @@ b.
 
 # Methods
 
+@Munn2018: reason to conduct a scoping review
+
 To conduct this scoping review, different papers published in academic journals were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust", and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore experimental and qualitative studies, as well as meta-analysis and systematic reviews are included. This allows us to have an idea as complete as possible about the existing literature on cooperation in commons and social dilemmas. Moreover, there was any chronological or geographical limitation, once again to provide a broader vision of the topic. There were however some selection criteria concerning the papers' content. First of all, as mentioned in the introduction, this review will focus on individual and group dynamic that can enhance or decrease cooperation in a social dilemma situation (i. e. commons). For this reason, all the papers investigating how an external entity/institution can shape cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. **include explication**
 
 Criteria developed during screening: - no papers about agent-based model - no ethical/religious/philosophical papers - adult participants
 
-Initially, 5210 papers emerged from the key phrases search. After deleting the duplicates, the count was of 4586. Based on titles and abstracts, 4321 articles were eliminated, leaving 265 (**with emotions**) texts to examine. After a full-text evaluation of the remaining papers, XXX were selected for the present review. Figure 1 resumes this selection procedure.
+Initially, 5210 papers emerged from the key phrases search. After deleting the duplicates, the count was of 4586. Based on titles and abstracts, 4321 articles were eliminated, leaving 253 texts to examine. After a full-text evaluation of the remaining papers, 92were selected for the present review. Figure 1 resumes this selection procedure.
 
 ## Papers' description
+
+The included papers were published between 1984 and 2023, with a median of 2015.
+
+A majority of the studies was conducted in Europe (*N*=40) (especially in Germany (*N*=12) and in the Netherlands (*N*=9)), followed by North America (*N*=20, of which *N*=19 in the USA) and Asia (*N*=10, of which *N*=7 in China). Moreover, *N*=7 studies were set in more than one country, and *N*=13 were meta-analysis or literature reviews. The two remaining studies took place in Australia and in Colombia, respectively.
+
+Almost all of the selected texts were journal articles. The only exceptions were a conference paper and a book chapter.
+
+still to do:
+
+-   main topic: social dilemma or commons? social dilemma to conceptualize a specific commons? social dilemma applied to real-life situations?
+
+-   methodology: lab vs meta-analysis vs review vs qualitative vs other?
 
 # Individual factors
 
@@ -139,6 +159,18 @@ Another reason why gender differences in cooperation are often very small is tha
 Finally, some of the analyzed papers presented interesting secondary results. First, against their authors' expectations, some intercultural studies showed that the gender difference in cooperation is not explained by the level of gender equality of the country [@Dorrough2019; @Spadaro2023]. Secondly, in an experiment not involving a social dilemma, women were significantly more altruistic than men [@Dorrough2019]. According to the authors, this underlines the importance of distinguishing between prosociality and strategic interactions that characterize social dilemmas. Therefore, in a situation where classical attributes of social dilemmas are not explicit, gender difference in cooperation could not be subjected to the same moderator effects described above. Lastly, according to @Sell2009, it is not possible to think about gender without relying it to social status, with men representing the high-status group. Therefore, gender differences in cooperation could also be caused by social status: to have a better understanding of this hypothesis, it would be interesting to investigate the difference in cooperation between two other social groups with a different status (e.g. high and low socioeconomic status).
 
 In conclusion, "at times women are more cooperative than men, less cooperative than men, or equally as cooperative as men. These variations are explained, in large part, by structural differences and identities triggered by those differences" [@Sell2009]. The context in which men and women interact is therefore essential to predict if a gender will cooperate more than the other, and which one.
+
+## Social status
+
+Few studies have investigate how social status impact cooperation, and their results do not allow to draw a clear conclusion about this effect.
+
+For instance, advantaged members (i.e. high-status class) tended to cooperate less than disadvantaged ones [@Aksoy2019]. In fact, when participants did not receive the same endowment at the beginning of the experiment, contributions of "rich" and "poor" members converged [@Kingsley2016]. In other words, proportionally to their resources, low-status participants cooperated more. However, in their review, @VanLange2013 identified some studies that observed the opposite effect, namely that wealthier people (or those who benefitted more from a common resource) contributed more to the common good than the other.
+
+Social status can also create inter-class conflicts. In fact, people cooperated more with the members of the same social class than with other classes' members [@Aksoy2019]. Moreover, a form of solidarity is observed between low-status members: in a study where participants had the opportunity to punish others for a non-cooperative behaviour, low-status members punished significantly less other low-status participants [@Chen2022]. Also, in an experiment where participants were randomly advantaged during the interaction, @Camera2020 found that subjects who received a lot of advantages were discriminated by others, and especially by the ones who were rarely advantaged.
+
+Regarding the overall group composition, results are not consensual. On one hand, @Aksoy2019 found that groups with an inequality of status between members displayed lower levels of cooperation than homogeneous groups. On the other hand, economic and socio-cultural heterogeneity, although being negatively correlated with in-group trust, does not have a direct effect on a common-pool resource well-being [@VanKlingeren2021].
+
+In conclusion, social status impacts cooperation, but it seems to have multiple effects. Moreover, as mentioned in the previous section, @Sell2009 affirmed that, when investigating gender differences in cooperation, it is impossible to disentangle the effect of social status. Similarly, @Aksoy2019 demonstrated that the lower level of cooperation between members of different social classes is mainly due to actors' identification with their classes. This shows that social identity and social status are deeply connected, and that therefore it is difficult to separate their effects on cooperation.
 
 ## Group identity
 
@@ -168,11 +200,15 @@ Finally, there are other personal values and traits that can affect cooperation.
 
 In conclusion, values and personality traits have a large impact on human cooperation, and it is thus very important to take them into account when investigating this phenomenon. Interestingly, some social psychological techniques (e.g. elaboration) allow to modify an individual's values [@Sussman2016]. Such techniques could therefore be used to improve cooperation.
 
-## Social status???
+## Trust and beliefs about others' contribution
 
-retrieve work on gender that says that gender effects are probably in part impacted by status?
+In social dilemma situations, trust can be defined as the "expectations of others' benevolent motives in situations that involve a conflict between self and collective interests" [@Balliet2013, p.1]. Trust can be dispositional or a state; the former is an individual's general trait, and is usually measured with personality scales, the latter is linked to the context, and can be operazionalized by expectations about a partner's behaviour in a specific situation [@Balliet2013]. The two are positevely correlated [@Lubke2021], and therefore both have a positive general effect on cooperation [@VanLange2013; @Balliet2013]. In fact, high levels of trust are associated with more contributions to a public good [@Kocher2015], and a participant's contribution in a public good game can be predicted by her beliefs about others' contributions [@Smith2013]. These beliefs are linked with SVO orientation [@Ackermann2019].
 
-## Belief
+Several studied confirmed this relationship. For instance, @Chaudhuri2002 demonstrated that people who cooperated more in a first public good game trusted more their partner in a following interaction than people whose main strategy was defecting. Moreover, people that were pessimistic about others' contribution cooperated significantly less than the optimistic [@Oyediran2018], and those who free-rode in a public good game, compared to cooperators, believed that others contributed less [@Kocher2015]. Also, people were more willing to purchase actions for a CO2 mitigation initiative when they believed that the majority of others had also bought them [@Sturm2019]. Finally, in a study about self-administered outlets in Swiss farms (i.e. outlets where nobody monitors if people pay or not their purchase), @Franzen2019 found that a farmer's general trust in other people is a significant predictor of the probability of having such an outlet. Concerning the moderators, trust matters more in situations involving a large, rather than small, conflict between personal and collective interests [@Balliet2013], and when people are uncertain about others' intentions [@VanLange2013].
+
+People can also display different levels of trust in the "reliability, effectiveness and legitimacy of public institutions" [@Rompf2017, p.2]. This authors showed that institutional trust is associated with the probability of recycling, because knowing that sanctions can be efficiently applied can motivate people to adapt to norms. Moreover, the effects of perceived costs and benefits of the action are less predictive in people with high institutional trust.
+
+Finally, trusting others (and the institutions) is essential to display higher level of cooperation. However, general beliefs about others' cooperation are quite low compared to the actual behaviours, and this trust gap can undermine cooperation, since people's actions are significantly predicted by their beliefs [@Lubke2021]. Therefore it is essential to provide people with reliable information about others' behaviour, to increase trust and, as a consequence, cooperation.
 
 # Group factors
 
@@ -188,13 +224,13 @@ However, punishment must be applied with carefulness: @Rockenbach2019 compared t
 
 A possible solution could be to implement a system of democratic punishment, where a fine is given only if a majority of participants agree. In fact, compared to a peer punishment system where participants decide individually if and who punish, in a democratic system anti-social punishment is less present, general punishment level is lower, and final payoff and cooperation rates are higher [@Pfattheicher2018].
 
-Rewarding systems, on the other side, are less investigated. Globally, they have a positive effect on cooperation[@Balliet2011a]. However, some studies found that they were more efficient than punishment [e.g. @Chen2022], while others came to the opposite conclusion [e.g. @Milinski2012] or found no difference between the two systems [e.g. @Balliet2011a].
+Rewarding systems, on the other side, are less investigated. Globally, they have a positive effect on cooperation [@Balliet2011a]. However, some studies found that they were more efficient than punishment [e.g. @Chen2022], while others came to the opposite conclusion [e.g. @Milinski2012] or found no difference between the two systems [e.g. @Balliet2011a].
 
 In a meta-analysis, @Balliet2011a found that rewards had a stronger effect on cooperation if their implementation was costly rather than free, and in iterated, rather than single, interactions. Moreover, rewarding was more effective in situations where participants had to decide how much take from a common resource, compared to when they had to decide how much contribute to a common good.
 
 In general, incentives seem to be a powerful tool to enhance cooperation, but they have a dark side. In fact, they reduce participants' intrinsic motivation [@VadDijk2015], by framing the situation as an economic, rather than ethical, dilemma [@VanVugt2009]. In fact, @Schlosser2018 demonstrated that people's level of justice sensitivity could predict their contributions to a public good game, but this link disappeared when a punishment system was introduced. Also, when incentives are present people think that others cooperate just because of them, and this undermines their trust in other members[@Irwin2014], and especially the trust in the fact that others are internally motivated to cooperate [@Mulder2006]. Therefore, if incentives are removed, cooperation drops [@Irwin2014; @Mulder2006].
 
-Finally, incentives are often studied in economic formats, but they can also be social. For example, the expectiation of honour or shame (after cooperating or defecting, respectively) is enough to enhance cooperation [@Jacquet2011]. Moreover, expressing disapproval toward defectors can boost cooperation by inducing more compliance to the cooperative social norm [@Nelissen2013]. Even an ostracism system where participants can vote to exclude other members from the game is very effective in increasing cooperation [@Jarungrattanapong2022]. In general, social sanctions can be even more efficient than economic ones, because cooperation do not drop after their removal [@Nelissen2013].
+Finally, incentives are often studied in economic formats, but they can also be social. For example, the expectation of honour or shame (after cooperating or defecting, respectively) is enough to enhance cooperation [@Jacquet2011]. Moreover, expressing disapproval toward defectors can boost cooperation by inducing more compliance to the cooperative social norm [@Nelissen2013]. Even an ostracism system where participants can vote to exclude other members from the game is very effective in increasing cooperation [@Jarungrattanapong2022]. In general, social sanctions can be even more efficient than economic ones, because cooperation do not drop after their removal [@Nelissen2013].
 
 To conclude, economic incentives can have a positive effect on cooperation, but their efficient implementation must be insured all along the interaction, otherwise cooperation rates would drop. On the other hand, social incentives seem to have the same positive effect, and their removal do not cause a reduction of cooperation. However, there is a lack of studies focusing on this kind of sanctions.
 
@@ -202,23 +238,47 @@ To conclude, economic incentives can have a positive effect on cooperation, but 
 
 Communication has a global positive effect on cooperation [e.g. @Balliet2010; @Bicchieri2002], but this effect is subjected to several moderators. First, talking is more powerful than sending written messages, because it allows non-verbal communication and facilitates the social norms formation process. Moreover, communication's effect is stronger in large groups: when many people are present cooperation rates are lower, so communication between members can buffer this negative effect [@Balliet2010]. Finally, if communicate with others requires a personal cost, the effect is weaker than if communication is free [@Janssen2014].
 
-The content of the messages is also essential. @Koessler2021 identified four steps that need to be present when participants in a social dilemma situation communicate: problem awareness, identification of strategies, agreement and ratification. In another study, groups who used communication to foster a common social identity, promote cooperative social norms and ensure that all the players publicly committed displayed higher rates of cooperation than other groups [@Adams2022]. However, casual chit-chat also plays a very important role in increasing cooperation [@Koessler2021]. Also, the increase of cooperation through communication can be explained by the normative content that people are shaping while exchanging messages [@Janssen2014]. Moreover, even if communication also helps to create a social identity, the effect of social norms is a stronger mediator of the link between communication and cooperation [@Bicchieri2002].
+The content of the messages is also essential. @Koessler2021 identified four steps that need to be present when participants in a social dilemma situation communicate: problem awareness, identification of strategies, agreement and ratification. In another study, groups who used communication to foster a common social identity, promote cooperative social norms and ensure that all the players publicly committed displayed higher rates of cooperation than other groups [@Adams2022]. However, casual chit-chat also plays a very important role in increasing cooperation [@Koessler2021]. Also, the increase of cooperation through communication can be explained by the normative content that people are shaping while exchanging messages [@Janssen2014], and by the fact that it allows participant to reach a consensus about the best strategy [@Hopthrow2005]. Moreover, even if communication also helps to create a social identity, the effect of social norms is a stronger mediator of the link between communication and cooperation [@Bicchieri2002].
 
 Another factor that influences the effect that communication has on cooperation is whether individuals exchange messages before, during or after the cooperative interaction phase. Concerning the post-game communication, @Kumakawa2013 found that receiving a feedback about the cooperation choice made previously can increase cooperation in the following interactions, especially if the feedback is negative. However, just the fact of knowing that a discussion will follow is not enough to enhance cooperation, and can even have a counterproductive effect, because forcing people to think about a future discussion make them reflect more on the situation and thus act more rationally [@Torsvik2011]. On the other hand, communication before or during the interaction have both a positive impact on cooperation, and the difference between their effect is not significant [@Balliet2010].
 
-Finally, several studies investigated the effect of gossip as a form of communication that can increase cooperation. Gossip is defined as a spread of reputational information about another person [@Feinberg2014], and it increases cooperation in two ways: first, if people know that gossip is possible, they tend to cooperate more to avoid the risk of being the target of such gossip and therefore of being excluded from following interactions. Secondly, having information about the past behaviour of potential cooperation partners can help to select the most cooperative people in an interaction situation [@Feinberg2014]. Moreover, the same authors found that pro-social individuals gossiped more than pro-self. This shows that gossip can have the pro-social function of protecting others from a potential exploitation [@Feinberg2012]. However, gossip has also some self-interest effects: for instance, observing another subject being exploited, and having the opportunity to gossip about the exploiter significantly reduced negative affects in @Feinberg2012 's participants. Moreover, providing correct information while gossiping helps to build a positive reputation [@Giardini2021].
+Finally, several studies investigated the effect of gossip as a form of communication that can increase cooperation. Gossip is defined as a spread of reputational information about another person [@Feinberg2014], and it increases cooperation in two ways: first, if people know that gossip is possible, they tend to cooperate more to avoid the risk of being the target of such gossip and therefore of being excluded from following interactions. Secondly, having information about the past behaviour of potential cooperation partners can help to select the most cooperative people in an interaction situation [@Feinberg2014]. Moreover, the same authors found that pro-social individuals gossiped more than pro-self. This shows that gossip can have the pro-social function of protecting others from a potential exploitation [@Feinberg2012]. However, gossip has also some self-interest effects: for instance, observing another subject being exploited and having the opportunity to gossip about the exploiter significantly reduced negative affects in @Feinberg2012 's participants. Moreover, providing correct information while gossiping helps to build a positive reputation [@Giardini2021].
 
 In conclusion, when people have the possibility to communicate before, during or after a cooperative interaction, the cooperation level increases. Even if the strength of this effect can vary depending on the situation, communication never seems to have a negative impact on cooperation.
 
-## Group size --\> link with anonymity?
-
 ## Social Norms
 
-## Commitment
+Social norms can provide a guide on how to behave, especially when there is uncertainty about others' behaviour [@Borgstede2018]. @Thogersen2008 studied the effect of social norms on daily social dilemma situations such as environmental behaviours, and found that both injunctive (what others approve) and descriptive (what others do) are positively related to behaviours. Moreover, cooperation can be maintained via social norms, because people who do not respect them are susceptible of social sanctions. In fact, if social approval is possible, people cooperate more [@Rege2004].
+
+There are several explanations of social norms' effect on cooperation. Firstly, according to the appropriateness framework, when taking a decision people ask themselves: "What does a person like me do in a situation like this?" [@Arora2012]. Therefore they need to define the situation as a cooperative task and to strongly identify with the group [@VanLange2013]. This leads to a greater accessibility of group's norms and consequently (if the norms are cooperative) to more cooperation. Testing this assumption, @Arora2012 showed that a greater identification with social group lead to higher levels of cooperation. The second explanation concerns conformity: in general people adapt their cooperation to others' behaviour, but this is usually explained by the reciprocity principle (cooperate enhances the probability that others will do the same, and therefore that the final payoff will be higher) [@Bardsley2005]. However, these authors demonstrated that people conform to others' behaviour even if this has no impact on their personal payoff. Therefore, people have a general tendency to imitate others to follow social norms.
+
+Finally, social norms can be modified by participants. For instance, @Weber2008 demonstrated that in several social dilemma experiment there are consistent cooperators, i.e. people who always cooperate. The presence of these people can increase other members' cooperation, and this effect is mediated by the perception of the social norms. Moreover, social norms can also be shaped via communication [@Bicchieri2002].
+
+In conclusion, social norms have a significant effect on people's cooperation in social dilemma situations. Since they are quite easily modified [@Weber2008], shaping cooperative norms can be a powerful instrument to improve cooperation.
+
+## Anonymity
+
+There are not many studies on the influence of anonymity on cooperation, but, according to @Wang2017, most of the factors that can increase cooperation rely on a reduction of anonymity. For instance, it is not possible to punish defectors without knowing who they are. Therefore, in general it seems that non-anonymous situations can significantly increase cooperation rates. In fact, when anonymity is removed in a social dilemma situation, cooperation increases and defection is reduced [@Wang2017]. This can be explained by the fact that, when their actions are visible, people worry about others' approval [@Rege2004] and that, in non-anonymous situations, contributions can be a self-presentation strategy, because being perceived as pro-social can increase one's social status [@VanVugt2010a]. There are therefore more social incentives to cooperate in non-anonymous, rather than anonymous, situations.
+
+Moreover, this effect is displayed especially in situations when individuals face a cost when cooperating and know that they will not get any personal benefit. For instance, @Butz2021 demonstrated that, in a public good game where a part of contributions was donated to a charity association, disclosing identity increased cooperation, but only if the donation was deducted from participants' payoff. In the same direction, @VanVugt2010a found that, when actions were public, contributions were higher if the public good was already attained or unattainable, and therefore if participants did not have a personal interest in cooperating.
+
+Reducing anonymity in cooperative interactions can be very effective to encourage people to contribute more. A possible way to do this is to reduce group's size. In fact, according to @Romano2016, a larger group leads to de-individuation, because it is more difficult to understand who is defecting. Therefore, it is easier for members to feel anonymous and to perceive the social punishments associated with defection as less probable. Moreover, communicate is easier in smaller groups [@Borgstede2018]. This assumption is confirmed experimentally by @Jiang2021, who showed than in smaller groups people contributed more often to a public good. Increasing cooperation through the reduction of anonymity is also possible by giving public feedbacks about people's cooperation [@Przepiorka2020].
+
+Another effective method to reduce anonymity is to make people publicly promise to cooperate before the cooperative interaction. For instance, in a laboratory experiment modeling a common pool resource, people who publicly committed exploited significantly less the resource than people who committed in private, even if after committing they were not restricted in their harvesting possibilities [@Mosler1993]. This results was also confirmed by @Przepiorka2020, who showed that non-binding promises increased cooperation. Moreover, even a compulsory commitment has a beneficial effect on cooperation, even if the most efficient groups are those where all participants signed voluntary the pledge [@Koessler2021a].
+
+In conclusion, reducing anonymity during interactions is essential to improve cooperation, because this can facilitate the implementation of others cooperation-enhancing techniques [@Wang2017]. Moreover, it exists several low-cost method to make situations non-anonymous.
 
 # Discussion
 
+individual factor: gender is interpretable by social status and ss is interpretable by group identity
+
+group factors: communication linked to social norms and social identity + anonymity underlies all the others + incentives has dark sides
+
+## Limitation
+
 observation: majority of papers included are about SD, and very few studies about commons are quantitative --\> future research: quantitative approach to investigate cooperation in common initiatives
+
+60/92 papers in Europe and North America + reviews also based on studies in these countries =\> bias (talk about cultural differences in cooperation)
 
 \newpage
 
