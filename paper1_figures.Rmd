@@ -9,23 +9,23 @@ FIGURE 1: diagram of papers' selection process
 library(DiagrammeR)
 library(webshot)
 DiagrammeR::grViz("digraph {
-graph [layout = dot, rankdir = TB]
+graph [layout = neato, rankdir = TB]
  
 node [shape = rectangle]        
 rec1 [label = 'Papers identified from search engines
-n = 5210']
+n = 5210', pos='0,0!']
 rec2 [label = 'Duplicates
-n = 624']
+n = 624', pos='3,0!']
 rec3 [label = 'Papers screened based on titles and abstracts
-n = 4586']
+n = 4586', pos='0,-1!']
 rec4 [label = 'Papers not suitable
-n = 4333']
+n = 4333', pos='3,-1!']
 rec5 [label = 'Papers read completely
-n = 253']
+n = 253', pos='0,-2!']
 rec6 [label = 'Papers not suitable
-n = 157']
+n = 157', pos='3,-2!']
 rec7 [label = 'Studies included
-n = 96']
+n = 96', pos='0,-3!']
 
 
 # edge definitions with the node IDs
@@ -35,4 +35,25 @@ rec5 -> rec6
 rec1 -> rec3 -> rec5 -> rec7
 }",
 height = 500)
+```
+
+``` {r}
+library(DiagrammeR)
+library(webshot)
+DiagrammeR::grViz("digraph {
+  graph [layout = fdp, rankdir = LR]
+
+  node [shape = rectangle]
+  rec1 [label = 'social identity', pos='0,0!']
+  rec2 [label = 'cooperation', pos='4,0!']
+  rec3 [label = 'social norms']
+  rec4 [label = 'communication']
+  rec5 [label = 'trust']
+
+  rec1 -> rec2
+  rec1 -> rec3 -> rec2
+  rec4 -> rec3
+  rec4 -> rec1
+  rec1 -> rec5 -> rec2
+}", height = 500)
 ```
