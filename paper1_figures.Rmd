@@ -11,21 +11,21 @@ library(webshot)
 DiagrammeR::grViz("digraph {
 graph [layout = neato, rankdir = TB]
  
-node [shape = rectangle]        
+node [shape = rectangle]       
 rec1 [label = 'Papers identified from search engines
-n = 5210', pos='0,0!']
+n = 5210', pos='0,0!', width = 4, height = 0.5]
 rec2 [label = 'Duplicates
-n = 624', pos='3,0!']
+n = 624', pos='4,0!', width = 2, height = 0.5]
 rec3 [label = 'Papers screened based on titles and abstracts
-n = 4586', pos='0,-1!']
+n = 4586', pos='0,-1!', width = 4, height = 0.5]
 rec4 [label = 'Papers not suitable
-n = 4333', pos='3,-1!']
+n = 4333', pos='4,-1!', width = 2, height = 0.5]
 rec5 [label = 'Papers read completely
-n = 253', pos='0,-2!']
+n = 253', pos='0,-2!', width = 4, height = 0.5]
 rec6 [label = 'Papers not suitable
-n = 157', pos='3,-2!']
+n = 157', pos='4,-2!', width = 2, height = 0.5]
 rec7 [label = 'Studies included
-n = 96', pos='0,-3!']
+n = 90', pos='0,-3!', width = 4, height = 0.5]
 
 
 # edge definitions with the node IDs

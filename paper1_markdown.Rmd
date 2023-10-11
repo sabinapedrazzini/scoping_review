@@ -54,6 +54,7 @@ footnotelist      : no
 
 classoption       : "man"
 output            : papaja::apa6_word
+always_allow_html : true
 #bibliography: references.bib
 ---
 
@@ -94,19 +95,51 @@ Based on these evidences, the aim of the present review is to use social dilemma
 
 Given the exploratory nature of this paper, a scoping review approach is used [@Munn2018]. To conduct it, different scientific publications were analyzed in response to the research questions. To gather the papers, a Boolean search methodology was used in different scientific search engines such as Scopus, Web of Science and ScienceDirect. The key phrases were "social dilemma", "public good", "common resource", "commons", "cooperation", "conflicts", "reciprocity", "trust", and they were paired with "AND" and "OR" Boolean operators. The research was made during the month of August, 2023. According with @Munn2022, the type of source was not a selection criteria, therefore journal articles, conference papers and book chapter could be included. This allows us to have an idea as complete as possible about the existing literature on cooperation in social dilemmas and commons. Moreover, there were not any chronological or geographical limitations, once again to provide a broader vision of the topic. There were however some selection criteria concerning the papers' methodology and content. First, as mentioned in the introduction, papers investigating how an external entity/institution shapes cooperation were not included. Secondly, papers that studied social dilemmas with an agent-based model methodology were also excluded. Moreover, in case of experimental or correlative studies, only cases with adult participants were selected.
 
-Initially, 5210 papers emerged from the key phrases search. After deleting the duplicates, the count was of 4586. Based on titles and abstracts, 4321 articles were eliminated, leaving 253 texts to examine. After a full-text evaluation of the remaining papers, 91 were selected for the present review. Figure 1 resumes this selection procedure.
+Initially, 5210 papers emerged from the key phrases search. After deleting the duplicates, the count was of 4586. Based on titles and abstracts, 4321 articles were eliminated, leaving 253 texts to examine. After a full-text evaluation of the remaining papers, 90 were selected for the present review. Figure 1 resumes this selection procedure.
+
+```{r}
+library(DiagrammeR)
+library(webshot2)
+DiagrammeR::grViz("digraph {
+graph [layout = neato, rankdir = TB]
+ 
+node [shape = rectangle]       
+rec1 [label = 'Papers identified from search engines
+n = 5210', pos='0,0!', width = 4, height = 0.5]
+rec2 [label = 'Duplicates
+n = 624', pos='4,0!', width = 2, height = 0.5]
+rec3 [label = 'Papers screened based on titles and abstracts
+n = 4586', pos='0,-1!', width = 4, height = 0.5]
+rec4 [label = 'Papers not suitable
+n = 4333', pos='4,-1!', width = 2, height = 0.5]
+rec5 [label = 'Papers read completely
+n = 253', pos='0,-2!', width = 4, height = 0.5]
+rec6 [label = 'Papers not suitable
+n = 163', pos='4,-2!', width = 2, height = 0.5]
+rec7 [label = 'Studies included
+n = 90', pos='0,-3!', width = 4, height = 0.5]
+
+
+# edge definitions with the node IDs
+rec1 -> rec2
+rec3 -> rec4
+rec5 -> rec6
+rec1 -> rec3 -> rec5 -> rec7
+}",
+height = 500)
+```
 
 ## Papers' description
 
-The 91 included papers were published between 1984 and 2023, with a median of 2015. Almost all of the selected texts were journal articles, with the only exception being a book chapter. Most of them were experimental studies (*N*=62), followed by literature review and meta-analysis (*N*=14) and correlational studies[^1] (*N*=14). The remaining paper was a qualitative study.
+The 90 included papers were published between 1984 and 2023, with a median of 2015. Almost all of the selected texts were journal articles, with the only exception being a book chapter. Most of them were experimental studies (*N*=61), followed by literature review and meta-analysis (*N*=14) and correlational studies[^1] (*N*=14). The remaining paper was a qualitative study.
 
 [^1]: Studies were at least a variable is manipulated by researchers are part of the category of "experimental studies", while "correlational studies" refers to papers using quantitative analysis, but without manipulations.
 
-The papers' topics can be divided in 4 categories: first, "social dilemma setting" (*N*=77) refers to high controlled laboratory experiments where participants have to take cooperative decision. Usually some variables are manipulated to investigate the influence of a specific factor on cooperation [e.g. @Zhang2019]. The type of paradigm used was most of the time a public good game (where participants can decide how much to contribute to a public good, e.g. @Torsvik2011) or a common resource game (where participants can decide how much to take from a common resource, e.g. @Nockur2020). Moreover, the type of game could vary during the experiment [e.g. @Fosgaard2019]. The second category is "real-life social dilemma situation" (*N*=7), and investigate cooperation in different real-life situations that have a social dilemma structure such as recycling behaviours [@Rompf2017] or use of public transportation [@VanLange1998]. Thirdly, "real-life commons" (*N*=4) refers to studies that investigate cooperation with participants that are members of a commons in their everyday life. Finally, papers in the category "commons modeled by a social dilemma experiment" (*N*=3) use a laboratory social dilemma paradigm, but with clear references to a concrete common. For instance, in @Mosler1993, participants had to imagine to be fishermen who shared a common basin.
+The papers' topics can be divided in 4 categories: first, "social dilemma setting" (*N*=76) refers to high controlled laboratory experiments where participants have to take cooperative decision. Usually some variables are manipulated to investigate the influence of a specific factor on cooperation [e.g. @Zhang2019]. The type of paradigm used was most of the time a public good game (where participants can decide how much to contribute to a public good, e.g. @Torsvik2011) or a common resource game (where participants can decide how much to take from a common resource, e.g. @Nockur2020). Moreover, the type of game could vary during the experiment [e.g. @Fosgaard2019]. The second category is "real-life social dilemma situation" (*N*=7), and investigate cooperation in different real-life situations that have a social dilemma structure such as recycling behaviours [@Rompf2017] or use of public transportation [@VanLange1998]. Thirdly, "real-life commons" (*N*=4) refers to studies that investigate cooperation with participants that are members of a commons in their everyday life. Finally, papers in the category "commons modeled by a social dilemma experiment" (*N*=3) use a laboratory social dilemma paradigm, but with clear references to a concrete common. For instance, in @Mosler1993, participants had to imagine to be fishermen who shared a common basin.
 
 Most of the papers concerned psychology and economy. In fact, thirty-five papers were published in psychology journals, such as *Group Processes & Integroup Relations* or *Psychological Bulletin*, and fourteen in economic journals (e.g. *Experimental Economics*). Additionally, some papers (*N*=8) were published in interdisciplinary journals such as *Journal of Economic Psychology.*
 
-Finally, most of the studies were conducted in Europe (*N*=40) (especially in Germany (*N*=12) and in the Netherlands (*N*=9)), followed by North America (*N*=20, of which *N*=19 in the USA) and Asia (*N*=9, of which *N*=6 in China). Moreover, *N*=7 studies were set in more than one country, and *N*=13 were meta-analysis or literature reviews. The two remaining studies took place in Australia and in Colombia, respectively.
+Finally, most of the studies were conducted in Europe (*N*=39) (especially in Germany (*N*=12) and in the Netherlands (*N*=9)), followed by North America (*N*=20, of which *N*=19 in the USA) and Asia (*N*=9, of which *N*=6 in China). Moreover, *N*=7 studies were set in more than one country, and *N*=13 were meta-analysis or literature reviews. The two remaining studies took place in Australia and in Colombia, respectively.
 
 # Individual factors
 
@@ -128,7 +161,7 @@ In conclusion, "at times women are more cooperative than men, less cooperative t
 
 Few studies have investigate how social status impact cooperation, and their results do not allow to draw a clear conclusion about this effect.
 
-For instance, advantaged members (i.e. high-status class) tended to cooperate less than disadvantaged ones [@Aksoy2019]. In fact, when participants did not receive the same endowment at the beginning of the experiment, contributions of "rich" and "poor" members converged [@Kingsley2016]. In other words, proportionally to their resources, low-status participants cooperated more. However, in their review, @VanLange2013 identified some studies that observed the opposite effect, namely that wealthier people (or those who benefitted more from a common resource) contributed more to the common good than the other.
+For instance, advantaged members (i.e. high-status class) tended to cooperate less than disadvantaged ones [@Aksoy2019]. In fact, when participants did not receive the same endowment at the beginning of the experiment, contributions of "rich" and "poor" members converged [@Kingsley2016]. In other words, proportionally to their resources, low-status participants cooperated more. However, in their review, @VanLange2013 identified some studies that observed the opposite effect, namely that wealthier people (or those who benefited more from a common resource) contributed more to the common good than the other.
 
 Social status can also create inter-class conflicts. In fact, people cooperated more with the members of the same social class than with other classes' members [@Aksoy2019]. Moreover, a form of solidarity is observed between low-status members: in a study where participants had the opportunity to punish others for a non-cooperative behaviour, low-status members punished significantly less other low-status participants [@Chen2022]. Also, in an experiment where participants were randomly advantaged during the interaction, @Camera2020 found that subjects who received a lot of advantages were discriminated by others, and especially by the ones who were rarely advantaged.
 
@@ -166,13 +199,13 @@ In conclusion, values and personality traits have a large impact on human cooper
 
 ## Trust and beliefs about others' contribution
 
-In social dilemma situations, trust can be defined as the "expectations of others' benevolent motives in situations that involve a conflict between self and collective interests" [@Balliet2013, p.1]. Trust can be dispositional or a state; the former is an individual's general trait, and is usually measured with personality scales, the latter is linked to the context, and can be operazionalized by expectations about a partner's behaviour in a specific situation [@Balliet2013]. The two are positevely correlated [@Lubke2021], and therefore both have a positive general effect on cooperation [@VanLange2013; @Balliet2013]. In fact, high levels of trust are associated with more contributions to a public good [@Kocher2015], and a participant's contribution in a public good game can be predicted by her beliefs about others' contributions [@Smith2013]. These beliefs are linked with SVO orientation [@Ackermann2019].
+In social dilemma situations, trust can be defined as the "expectations of others' benevolent motives in situations that involve a conflict between self and collective interests" [@Balliet2013, p.1]. Trust can be dispositional or a state; the former is an individual's general trait, and is usually measured with personality scales, the latter is linked to the context, and can be operazionalized by expectations about a partner's behaviour in a specific situation [@Balliet2013]. The two are positevely correlated [@Lubke2021], and therefore both have a positive general effect on cooperation [@VanLange2013; @Balliet2013]. In fact, high levels of trust are associated with more contributions to a public good [@Kocher2015], and a participant's contribution in a public good game can be predicted by her beliefs about others' contributions [@Smith2013].
 
 Several studied confirmed this relationship. For instance, @Chaudhuri2002 demonstrated that people who cooperated more in a first public good game trusted more their partner in a following interaction than people whose main strategy was defecting. Moreover, people that were pessimistic about others' contribution cooperated significantly less than the optimistic [@Oyediran2018], and those who free-rode in a public good game, compared to cooperators, believed that others contributed less [@Kocher2015]. Also, people were more willing to purchase actions for a CO2 mitigation initiative when they believed that the majority of others had also bought them [@Sturm2019]. Finally, in a study about self-administered outlets in Swiss farms (i.e. outlets where nobody monitors if people pay or not their purchase), @Franzen2019 found that a farmer's general trust in other people is a significant predictor of the probability of having such an outlet. Concerning the moderators, trust matters more in situations involving a large, rather than small, conflict between personal and collective interests [@Balliet2013], and when people are uncertain about others' intentions [@VanLange2013].
 
 People can also display different levels of trust in the "reliability, effectiveness and legitimacy of public institutions" [@Rompf2017, p. 2]. This authors showed that institutional trust is associated with the probability of recycling, because knowing that sanctions can be efficiently applied can motivate people to adapt to norms. Moreover, the effects of perceived costs and benefits of the action are less predictive in people with high institutional trust.
 
-Finally, trusting others (and the institutions) is essential to display higher level of cooperation. However, general beliefs about others' cooperation are quite low compared to the actual behaviours, and this trust gap can undermine cooperation, since people's actions are significantly predicted by their beliefs [@Lubke2021]. Therefore it is essential to provide people with reliable information about others' behaviour, to increase trust and, as a consequence, cooperation.
+Finally, trusting others (and the institutions) is essential to display higher level of cooperation. However, general beliefs about others' cooperation are quite low compared to the actual behaviours, and this trust gap can undermine cooperation, since people's actions are significantly predicted by their beliefs [@Lubke2021]. In order to increase trust and, consequentely, cooperation, it is therefore it is essential to provide people with reliable information about others' behaviour.
 
 # Group factors
 
@@ -182,9 +215,9 @@ Cooperation rates can be modified by introducing incentives, who can be either p
 
 [^2]: Since the present paper's interest is to investigate how the internal organization of a group can affect cooperation, only papers that studied situations where the participants could give rewards or punishments to each-others are included. Incentives given by third party have also an effect on cooperation, but they are not included in this review.
 
-However, this main results is subjected to several moderator factors. First, the punishment have a bigger impact on cooperation if its implementation is costly for the punishers than if it is free [@Balliet2011a], but at the same time the cost should not be too high [@Egas2008]. Moreover, punishments are more effective if the interaction is among friends than among strangers, and if people know that they will have to interact repeatedly with each other [@Balliet2011a]. In fact, in short interactions, if punishment is costly, individuals who punish others are the ones with the lowest personal income [@Milinski2012], and this could discourage the application of the fine. Also, an experiment showed that a punishment system increased cooperation in groups where all members had the same amount of resources, but not in groups where income was heterogeneous [@Kingsley2016]. In fact, @Chen2022 found that, in groups where the initial endowment was heterogeneous, participants that received less didn't punish the others "low-status" members. This solidarity could therefore encourage free-riding. Moreover, the effect of punishment is stronger if only cooperators have the power to punish defectors, than if everybody can punish [@Xiao2016]. Finally, a plain situation is also needed to have a stronger effect of punishment: the link between behaviour and outcome must be clear, without random factors affecting the final outcome [@Xiao2016], and the punishment must be highly effective [@Egas2008].
+However, this main results is subjected to several moderator factors. First, the punishment have a bigger impact on cooperation if its implementation is costly for the punishers than if it is free [@Balliet2011a], but at the same time the cost should not be too high [@Egas2008]. Moreover, punishments are more effective if the interaction is among friends than among strangers, and if people know that they will have to interact repeatedly with each other [@Balliet2011a]. In fact, in short interactions, if punishment is costly, individuals who punish others are the ones with the lowest personal income [@Milinski2012], and this could discourage the application of the fine. Also, an experiment showed that a punishment system increased cooperation in groups where all members had the same amount of resources, but not in groups where income was heterogeneous [@Kingsley2016]. In fact, @Chen2022 found that, in groups where the initial endowment was heterogeneous, participants that received less didn't punish the others "low-status" members. This solidarity could therefore encourage free-riding. Moreover, the effect of punishment is stronger when only cooperators have the power to punish defectors, than when everybody can punish [@Xiao2016]. Finally, a plain situation is also needed to have a stronger effect of punishment: the link between behaviour and outcome must be clear, without random factors affecting the final outcome [@Xiao2016], and the punishment must be highly effective [@Egas2008].
 
-However, punishment must be applied with carefulness: @Rockenbach2019 compared the punishment strategy of different groups, and found that the most successful ones (whose members had the highest payoff at the end of the experiment) punished with caution and not in early stages of the game. In these groups, a norm of when and how punishment should be applied seems to exist. Moreover, punishment can also have two main negative sides. First, it could entails a second-order social dilemma [@Milinski2012], since cooperative participants can free-ride on the effort of other cooperators who punish non-cooperators. Secondly, anti-social punishment can arise. This term refer to the punishment of cooperators by non-cooperators, and it is present when all participants can punish independently of their contributions [@Xiao2016]. In this context, defectors can see cooperators as rule breakers, and anti-social punishment is a sort of retaliation [@VanDijk2015].
+However, punishment must be applied with carefulness: @Rockenbach2019 compared the punishment strategy of different groups, and found that the most successful ones (whose members had the highest payoff at the end of the experiment) punished with caution and not in early stages of the game. In these groups, a norm of when and how punishment should be applied seems to exist. Moreover, punishment has also two main negative sides. First, it could entails a second-order social dilemma [@Milinski2012], since cooperative participants can free-ride on the effort of other cooperators who punish non-cooperators. Secondly, anti-social punishment can arise. This term refer to the punishment of cooperators by non-cooperators, and it is present when all participants can punish independently of their contributions [@Xiao2016]. In this context, defectors can see cooperators as rule breakers, and anti-social punishment is a sort of retaliation [@VanDijk2015].
 
 A possible solution could be to implement a system of democratic punishment, where a fine is given only if a majority of participants agree. In fact, compared to a peer punishment system where participants decide individually if and who punish, in a democratic system anti-social punishment is less present, general punishment level is lower, and final payoff and cooperation rates are higher [@Pfattheicher2018].
 
@@ -234,37 +267,31 @@ In conclusion, reducing anonymity during interactions is essential to improve co
 
 # Discussion
 
-This review identified some factors that could impact people's cooperation in social dilemmas and in commons.
+Through a scoping review approach, the current study identified some factors that could impact cooperation in social dilemmas and in commons. Some of the this elements can be related to Ostrom's principles to successfully manage a commons [@Ostrom1990]. In fact, her first statement says that commons need clearly defined boundaries: therefore, it must be clear who has the right to benefit from the common resource and who does not. This could be linked to the social identity construct, since only when an in- and an out-group exist social identity is salient and therefore an identification is possible [@Tajfel1974]. Even if Ostrom developed this principle on a more organizational level, the secondary effect of creating a social identity for commons' members can also contribute to improve cooperation. Moreover, individuals who are part of the group, and who are therefore affected by the commons' rules, must be able to participate in modifying them (principle 3). This statement shows the importance of social norms, and especially of injunctive ones, namely what is morally approved in a social group [@Cialdini1990]. Moreover, in order to modify such norms, people have to communicate [@Bicchieri2002]. Communication is also essential for principle 6, who posits that members of a commons must have access to low-cost arenas to resolve conflicts. In fact, communication helps to reach an agreement to the strategy that needs to be followed [@Hopthrow2005]. Finally, Ostrom's principles 4 and 5 underline the importance of incentives, especially in the form of a monitoring system implemented by members them-selves and a graduate sanctions system toward violators of the rules. The monitoring system refers to social incentives, and is linked to anonymity, since if people know that their behaviour can be observed, they are more willing to conform to social norms because they are worried about others' approval [@Nelissen2013; @Rege2004]. On the other hand, a sanction system can also have a positive impact on cooperation [@Balliet2011a], especially if it is graduate, so if sanctions are not too high at the first violation [@Rockenbach2019].[^3]
 
--   individual factors: some of them can be manipulated to improve cooperation, some of them must just be taken into account when "planning"
+[^3]: Principles 2, 7 and 8 refer to elements that are not pertinent to the current review, and therefore do not match any of the factors identified.
 
--   group factors = strategies that groups can implement to improve cooperation
+Ostrom's assumptions are therefore confirmed, especially by factors at the organizational level. This is understandable when considering her economic approach to the study of the commons. However, taking into account the social dynamics and the individuals who interact within the commons is also essential to have a better understanding of how these communities work [@Euler2018; @Nightingale2011]. For this reason, this paper makes a step further by identifying some individual factors that affect the efficiency of commons.
 
--   =\> talk about the practical implication of this (interventions, ...)
-
-Previous theories
-
-Ostrom's (1990) eight principles for successfully managing a common (the 8th not pertinent):
-
-1\. Clearly defined boundaries =\>Individuals or households who have rights to withdraw resource units from the, CPR must be clearly defined, as must the boundaries of the CPR itself. **SOCIAL IDENTITY: since it defines an in-group and an out-group social identity becomes salient** @Tajfel1974
-
-2\. Congruence between appropriation and provision rules and local conditions =\> Appropriation rules restricting time, place, technology, and/or quantity of resource units are related to local conditions and to provision rules requiring labor, material, and/or money.
-
-3\. Collective-choice arrangements =\> Most individuals affected by the operational rules can participate in modifying the operational rules. **COMMUNICATION, SOCIAL NORMS**
-
-4\. Monitoring =\> Monitors, who actively audit CPR conditions and appropriator behavior, are accountable to the appropriators or are the appropriators. **INCENTIVES**
-
-5\. Graduated sanctions =\> Appropriators who violate operational rules are likely to be assessed graduated sanctions (depending on the seriousness and context of the offense) by other appropriators, by officials accountable to these appropriators, or by both. **INCENTIVES**
-
-6\. Conflict-resolution mechanisms =\> Appropriators and their officials have rapid access to low-cost local arenas to resolve conflicts among appropriators or between appropriators and officials. **COMMUNICATION**
-
-7\. Minimal recognition of rights to organize =\> The rights of appropriators to devise their own institutions are not challenged by external governmental authorities. **NOT APPLICABLE BECAUSE NO FOCUS ON EXTERNAL INSTITUTIONS**
+@Tajfel1974: classic TIS, explanation of why more group identity = more cooperation, see also experiments with minimal groups paradigm + @Fritsche2018: The collectively interchangeable state of "social identity" makes people susceptible to adopt collective appraisals, goals, and behavior tendencies that are shared within their ingroup as their own
 
 At a certain point say that these factors are not independent, but interconnected =\> prepare a model/framework
 
-@Tajfel1974: classic TIS, explanation of why more group identity = more cooperation, see also experiments with minimal groups paradigm
+@Ackermann2019: link between SVO and trust
 
 SIMPEA model: [https://www.researchgate.net/profile/Michael-Brenner-Fliesser/publication/368219709/figure/fig2/AS:11431281117565450\@1675469130812/SIMPEA-model-Fritsche-et-al-2018.jpg](https://www.researchgate.net/profile/Michael-Brenner-Fliesser/publication/368219709/figure/fig2/AS:11431281117565450@1675469130812/SIMPEA-model-Fritsche-et-al-2018.jpg)
+
+environmental goals are usually collective goals and can therefore be attained just through a collective action (SIMPEA, @Fritsche2018a) =\> link with the fact that commons are successful only if people cooperate, "These crises, such as climate change, are large-scale and have the structure of common good dilemmas"
+
+in order to evaluate the climate crisis as relevant for the self, individuals need a connection with others who are more likely to be affected by it
+
+4 elements that affect appraisal of environmental crisis + pro-environmental behaviours:
+
+-   in-group identification
+
+-   collective efficacy beliefs =\> trust: since trust are the belief in others' contribution, it must be linked to the perceived collective efficacy (no trust = no collective efficacy, because if one thinks that the others are not contributing as they should then they can not believe that a collective action can be efficient)
+
+-   in-group norms and goals
 
 SIMCA model: [https://www.researchgate.net/profile/Fouad-Bou-Zeineddine/publication/351515886/figure/fig1/AS:1042875005542400\@1625652185052/an-Zomeren-et-al-2008-Social-Identity-Model-of-Collective-Action-SIMCA-with.png](https://www.researchgate.net/profile/Fouad-Bou-Zeineddine/publication/351515886/figure/fig1/AS:1042875005542400@1625652185052/an-Zomeren-et-al-2008-Social-Identity-Model-of-Collective-Action-SIMCA-with.png)
 
@@ -280,9 +307,16 @@ bystander effect =\> anonymity
 
 individual factor: gender is interpretable by social status and ss is interpretable by group identity
 
-social status: low cooperate more than high =\> theories of Iacoviello etc!!!
+social status: low cooperate more than high =\> theories of Iacoviello etc!!!\
+@Vargas-Salfate2018: more system justification in high-status individuals!
 
 group factors: communication linked to social norms and social identity + anonymity underlies all the others + incentives has dark sides
+
+-   individual factors: some of them can be manipulated to improve cooperation, some of them must just be taken into account when "planning"
+
+-   group factors = strategies that groups can implement to improve cooperation
+
+-   =\> talk about the practical implication of this (interventions, ...)
 
 ## Limitation
 
