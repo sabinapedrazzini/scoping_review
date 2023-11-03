@@ -1,0 +1,87 @@
+---
+title             : "Improving the understanding of cooperation in commons through social dilemmas' literature: A scoping review"
+shorttitle        : "Improving the understanding of cooperation in commons"
+
+author: 
+  - name          : "Pedrazzini Sabina"
+    affiliation   : "1"
+    #corresponding : yes    # Define only one corresponding author
+    address       : "University of Bern, Centre for Development and Environment (CDE), Mittelstrasse 43, CH-3012 Bern"
+    email         : "sabina.pedrazzini@unibe.ch"
+    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
+     # - "Conceptualization"
+     # - "Writing - Original Draft Preparation"
+     # - "Writing - Review & Editing"
+
+affiliation:
+  - id            : "1"
+    institution   : "Centre for Development and Environment, University of Bern"
+    
+#authornote: |
+
+abstract: |
+  Commons represent an alternative social organization outside the classical capitalist model, therefore they could be the needed change toward more sustainable societies and economy. However, in order for a common to be successful, its members must cooperate, i.e. incur a personal sacrifice for the collective good. Despite the importance of cooperation, there is a lack of studies that investigated this topic in commons context. On the other hand, cooperation has been extensively studied in social dilemma experiments, where personal and collective interests are at odds. Since the two contexts share some structural characteristics, the results of social dilemma experiments could be used to gain insights on cooperation in commons.
+  The goal of the current scoping review is to identify the factors that impact cooperation in social dilemma situations, to gain a better understanding of what could shape cooperation in commons. A key-word search and a subsequent selection lead to the inclusion of 89 papers, who are used to identify 9 factors that can influence cooperation both at the individual and group level: *gender, social status, group identification, values and personality traits, trust, incentives, communication, social norms and anonymity*. These factors are discussed within the existing literature on commons and cooperation. *More specifically, the influences that these elements can have on each-other are highlighted, showing that the totality of factors should be taken into account when investigating cooperation in commons.* Finally, the practical implication of this work for commons' organization, as well as the review's limitations, are pointed out.
+  
+#keywords          : "cooperation, social dilemmas, commons"
+#wordcount         : ""
+
+bibliography      : CommonPaths.json
+
+floatsintext      : no
+linenumbers       : yes
+draft             : no
+mask              : no
+
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+
+classoption       : "man"
+output            : papaja::apa6_word
+always_allow_html : true
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+r_refs("r-references.bib")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+**TO DO LIST:**
+
+-   **try to shorten as much as possible the result section by putting detailed results on the table**
+
+-   **put the references in the table (ex: gender, 11 papers --\> put the 11 references in the case)**
+
+-   **look for journals and their requirements to know how much shorten and how to frame the introduction + discussion (ask Vincent which journal he chose?)**
+
+# Individual factors
+
+## Gender
+
+The effect of gender on cooperation is controversial, and studies that investigated it provided contradictory results. Sometimes men cooperated more [@Dorrough2019], sometimes women did [@Peshkovskaya2017], but, in general, meta-analysis found a non significant effect size [e.g. @Balliet2011; @Spadaro2023]. This indicates that gender differences in cooperation are very flexible and can vary depending on the context [@Spadaro2023]. Therefore, when a significant effect is observed, it means that gender has somewhat been made salient by the situation [@Sell2009].
+
+Interaction partners can moderate this effect. In fact, in a social dilemma experiment, women were more cooperative toward strangers than men, while men cooperated more in a group of friends. Moreover, after a socialization phase where strangers could interact, men cooperated more than women [@Peshkovskaya2017]. These results seem to indicate that men accord more importance at the relationship with other members than women. In fact, the creation of a team identity enhances men's, but not women's, cooperation [@Gomez-Ruiz2020]. Moreover, in a social dilemma with many iterations, men, but not women, tended to increase their cooperation over time [@Balliet2011].
+
+The partners' gender also have an impact on women's and men's cooperation. In general, groups composed by men only are more cooperative than only-women groups. This is explained by the fact that women, compared to men, are generally less concerned by the maximization of their personal payoff and more about relative payoff. Thus, the defection strategy allows them to avoid earning less than the other players [@Colman2018]. Moreover, men display higher levels of gratitude and trust in same-sex groups than women [@Peshkovskaya2019]. On the other side, women cooperate more in mixed group. In fact, when both men and women are present, gender stereotypes are activated and people tend to adapt their behaviour to them. This leads women to behave in a more pro-social, altruistic way and men to be more self-oriented and competitive [@Balliet2011]. The same result is also found by @Peshkovskaya2019, who additionally demonstrated that women reported a stronger social connection with their partners in mixed than in same-sex groups. The overall group composition also have an impact on cooperation: in general, groups with a majority of women display the highest levels of cooperation [@Spadaro2023]. However, @Barrero-Amortegui2021 showed that groups with a majority of women were more cooperative only after the signature of an agreement against excessive harvesting of a common resource. Therefore, even the effect of group composition seems to be subjected to moderator variables.
+
+Another reason why gender differences in cooperation are often very small is that fear and greed motives are confused in a classical social dilemma situation [@Simpson2003]. In this contexts, a feeling of fear arises when one's cooperation could be exploited by others' free-riding, while greed is the feeling associated with the temptation to free-ride on others' cooperation. According to social psychology and evolutionary theories, the author expected women to defect more when fear incentives were present, and men to defect more with greed incentives. Although only the second hypothesis was corroborated, his intuition about women being more sensitive to the fear of being exploited is confirmed by other studies. For example, women level of cooperation is predicted by their trust in their interaction partner, while men's trust and cooperation are not linked [@Irwin2015]. Moreover, women's lower cooperation is explained by the fact that they expected their partner to contribute less to the common good [@Dorrough2019].
+
+Finally, some of the analyzed papers presented interesting secondary results. First, against their authors' expectations, some intercultural studies showed that the gender difference in cooperation is not explained by the level of gender equality of the country [@Dorrough2019; @Spadaro2023]. Secondly, in an experiment not involving a social dilemma, women were significantly more altruistic than men [@Dorrough2019]. According to the authors, this underlines the importance of distinguishing between prosociality and strategic interactions that characterize social dilemmas. Therefore, in a situation where classical attributes of social dilemmas are not explicit, gender difference in cooperation could not be subjected to the same moderator effects described above. Lastly, according to @Sell2009, it is not possible to think about gender without relying it to social status, with men representing the high-status group. Therefore, gender differences in cooperation could also be caused by social status: to have a better understanding of this hypothesis, it would be interesting to investigate the difference in cooperation between two other social groups with a different status (e.g. high and low socioeconomic status).
+
+In conclusion, "at times women are more cooperative than men, less cooperative than men, or equally as cooperative as men. These variations are explained, in large part, by structural differences and identities triggered by those differences" [@Sell2009, p. 322]. The context in which men and women interact is therefore essential to predict if a gender will cooperate more than the other, and which one.
+
+# Discussion
+
+\newpage
+
+# References
+
+::: {#refs custom-style="Bibliography"}
+:::
